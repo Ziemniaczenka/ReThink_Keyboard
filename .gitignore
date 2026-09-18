@@ -1,0 +1,21 @@
+# KiCad temporary, autosave, and lock files
+*-backups/
+_autosave-*
+*.kicad_prl
+*.lck
+*.bak
+*.tmp
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Internal documents/scratchpad
+reference/
+shopping/
+
+# OS metadata
+[Dd]esktop.ini
+[Tt]humbs.db
+.DS_Store
+
+# Other
+*.code-workspace
