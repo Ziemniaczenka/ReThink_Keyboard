@@ -13,9 +13,10 @@ Adapting older ThinkPad laptop keyboard modules into standalone keyboards using 
 
 ## Reference pinouts
 
-<!-- - [Framework Wireless Touchpad Keyboard connector](docs/pinouts/framework_ffc.md) -->
-- [Mezzanine Connector](docs/pinouts/mezzanine.md)
-<!-- - [L420 Connector] -->
+- [Framework Control Board FFC connectors](docs/pinouts/framework_ffc.md)
+- [Mezzanine Connector (e.g. T60/T420)](docs/pinouts/mezzanine.md)
+- [FFC1 (e.g. L420)](docs/pinouts/ffc1.md)
+- [FFC2 (e.g. T480/T580/L14)](docs/pinouts/ffc2.md)
 
 ## Mechanical CAD
   
