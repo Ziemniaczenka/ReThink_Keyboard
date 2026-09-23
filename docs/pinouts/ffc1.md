@@ -5,10 +5,19 @@ Dual FFC connectors (30-pin P1.0mm for matrix, 8-pin P1.0mm for Pointing Stick)
 
 ## Compatible connectors
 
-- 30-pin:
-  - 85208-3007N-01???
-- 8-pin:
-  - 
+1. 30-pin
+   - pitch: 1.0mm
+   - key: straight
+   - side: **top**
+   - lock: yes?
+   - Compatible MFN:
+     - 85208-3007N-01???
+2. 8-pin
+   - pitch: 1.0mm
+   - key: straight
+   - side: **bottom**
+   - lock: yes?
+   - Compatible MFN: ???
 
 
 ## Compatible models (TBD)

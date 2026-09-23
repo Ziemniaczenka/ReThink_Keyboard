@@ -3,8 +3,12 @@
 Classic 7-row keyboard (2 types) and old chiclet
 
 ## Compatible connectors
-- JAE AA01B-S040VA1 (original, hard to find)
-- WM6787CT-ND (alternative, no locating feature, easy to break and posibility of misaligment)
+1. Mezzanine
+   - pin count: 2x20pin 
+   - pitch: 0.5mm
+   - Compatible MFN:
+     - JAE AA01B-S040VA1 (original, hard to find)
+     - WM6787CT-ND (alternative, no locating feature, easy to break and posibility of misaligment)
 
 ## Compatible models (TBD)
 - T60, T61, T400, R60, R61, R400, R500, W500, W700 (w/o numpad)  (classic type 1, narrow navigation keys, gap between kb and navigation keys)
@@ -18,7 +22,7 @@ Slight differences between generations
 
 |  Pin   |    T60     |      T420      |      T430       |                 Type                  |  AdapterBoard   |
 | :----: | :--------: | :------------: | :-------------: | :-----------------------------------: | :-------------: |
-|   1    |   HOTKEY   |     HOTKEY     |     HOTKEY      |                   ?                   |        ?        |
+|   1    |   HOTKEY   |     HOTKEY     |     HOTKEY      |           Fn key? (to GND)            |      EXP0       |
 |   2    |    DRV4    |      DRV4      |      DRV4       |                                       |                 |
 |   3    |   SENSE5   |     SENSE5     |     SENSE5      |                                       |                 |
 |   4    |    DRV5    |      DRV5      |      DRV5       |                                       |                 |
@@ -36,29 +40,25 @@ Slight differences between generations
 |   16   |   DRV10    |     DRV10      |      DRV10      |                                       |                 |
 |   17   |   SENSE7   |     SENSE7     |     SENSE7      |                                       |                 |
 |   18   |    DRV1    |      DRV1      |      DRV1       |                                       |                 |
-|   19   | PWRSWITCH  |   PWRSWITCH    |    PWRSWITCH    |                                       |                 |
+|   19   | PWRSWITCH  |   PWRSWITCH    |    PWRSWITCH    |                                       |      EXP1       |
 |   20   |    DRV9    |      DRV9      |      DRV9       |                                       |                 |
-| **21** |   **NC**   | **LEDCPSLOCK** | **KBD_BL_DTCT** |                                       |                 |
+| **21** |   **NC**   | **LEDCPSLOCK** | **KBD_BL_DTCT** |                                       |      EXP?       |
 |   22   |    DRV0    |      DRV0      |      DRV0       |                                       |                 |
-| **23** |   **NC**   |   **LEDPWR**   |   **LEDPWR**    |                                       |                 |
+| **23** |   **NC**   |   **LEDPWR**   |   **LEDPWR**    |                   ?                   |                 |
 |   24   |   DRV11    |     DRV11      |      DRV11      |                                       |                 |
-| **25** | **KBDID0** |   **KBDID0**   | **KBD_BL_PWM**  |                                       |                 |
+| **25** | **KBDID0** |   **KBDID0**   | **KBD_BL_PWM**  |                                       |       PWM       |
 |   26   |   DRV14    |     DRV14      |      DRV14      |                                       |                 |
-| **27** | **KBDID1** |   **KBDID1**   |     **GND**     |                                       |                 |
+| **27** | **KBDID1** |   **KBDID1**   |     **GND**     |                                       |        ?        |
 |   28   |   DRV12    |     DRV12      |      DRV12      |                                       |                 |
 | **29** | **KBDID2** |   **KBDID2**   |    **VCC5B**    |                                       |                 |
 |   30   |   DRV15    |     DRV15      |      DRV15      |                                       |                 |
-|   31   |    GND     |      GND       |       GND       |                                       |                 |
+|   31   |    GND     |      GND       |       GND       |                                       |       GND       |
 |   32   |   DRV13    |     DRV13      |      DRV13      |                                       |                 |
 | **33** |   **NC**   |  **LED_MUTE**  |  **LED_MUTE**   |                                       |                 |
-|   34   |    GND     |      GND       |       GND       |                                       |                 |
+|   34   |    GND     |      GND       |       GND       |                                       |       GND       |
 | **35** |   **NC**   |   **VCC3M**    |    **VCC3M**    |                                       |                 |
 | **36** |  **GND**   | **LEDMICMUTE** | **LEDMICMUTE**  |                                       |                 |
 |   37   |  TP4DATA   |    TP4DATA     |     TP4DATA     | TrackPoint Data line, pullup 4.7k@5V  | ?, pullup @3V3  |
-|   38   |   VCC5B    |     VCC5B      |      VCC5B      |                                       |                 |
+|   38   |   VCC5B    |     VCC5B      |      VCC5B      |           TrackPoint Power            |                 |
 |   39   |   TP4CLK   |     TP4CLK     |     TP4CLK      | TrackPoint Clock line, pullup 4.7k@5V | ?, pullup @3V3  |
 |   40   | TP4_RESET  |   TP4_RESET    |    TP4_RESET    | TrackPoint Reset line, pullup 10k@5V  | ?, pullup @3V3? |
-|   41   |    GND     |      GND       |       GND       |            Mounting point             |       GND       |
-|   42   |    GND     |      GND       |       GND       |            Mounting point             |       GND       |
-|   43   |    GND     |      GND       |       GND       |            Mounting point             |       GND       |
-|   44   |    GND     |      GND       |       GND       |            Mounting point             |       GND       |

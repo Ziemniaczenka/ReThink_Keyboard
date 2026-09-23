@@ -28,6 +28,7 @@ Adapting older ThinkPad laptop keyboard modules into standalone keyboards using 
 
 ## Battery
 
+- Picoblade 3-pin with NTC thermistor.
 - TBD
 
 ## Firmware and Bootloader
@@ -47,3 +48,8 @@ To view a copy of this license, visit https://creativecommons.org/licenses/by-sa
 > Framework Control Board was provided pre-release by Framework Computer Inc. through Control Board Developer Program.
 
 > ThinkPad and TrackPoint are registered trademarks of Lenovo. ReThink is an independent open-source project and is not affiliated with, endorsed by, or certified by Lenovo Group Limited.
+
+## References
+1. https://github.com/FrameworkComputer/Framework-Wireless-Touchpad-Keyboard
+2. https://github.com/rampadc/kb_zmk_ps2_mouse_trackpoint_driver
+3. https://github.com/delingren/thinkpad_keyboards
