@@ -8,16 +8,20 @@ Dual FFC connectors (30-pin P1.0mm for matrix, 8-pin P1.0mm for Pointing Stick)
 1. 30-pin
    - pitch: 1.0mm
    - key: straight
-   - side: **top**
+   - side: **top** (based on planed bends for adapter placement, not on laptop placement)
    - lock: yes?
-   - Compatible MFN:
+   - Compatible MPN:
      - 85208-3007N-01???
+     - Omron XF3M(1)-3015-1B
+       - [Mouser](https://www.mouser.pl/en/ProductDetail/Omron-Electronics/XF3M1-3015-1B?qs=1He0yLMpldDsC1Cgk53qLQ%3D%3D)
 2. 8-pin
    - pitch: 1.0mm
    - key: straight
    - side: **bottom**
    - lock: yes?
-   - Compatible MFN: ???
+   - Compatible MPN:
+     - Omron XF3M(1)-0815-1B
+       - [Mouser](https://www.mouser.pl/en/ProductDetail/Omron-Electronics/XF3M1-0815-1B?qs=q%2FTJjBi8OU92LX9jQs7B8Q%3D%3D)
 
 
 ## Compatible models (TBD)
@@ -34,7 +38,7 @@ Dual FFC connectors (30-pin P1.0mm for matrix, 8-pin P1.0mm for Pointing Stick)
 |   3   | RIGHT  | Navigation Button |               |
 |   4   | MIDDLE | Navigation Button |               |
 |   5   |  LEFT  | Navigation Button |               |
-|   6   |  GND   |                   |               |
+|   6   |  GND   |                   |      GND      |
 |   7   |  MY15  |                   |               |
 |   8   |  MY10  |                   |               |
 |   9   |  MY11  |                   |               |
@@ -55,7 +59,7 @@ Dual FFC connectors (30-pin P1.0mm for matrix, 8-pin P1.0mm for Pointing Stick)
 |  24   |  MY0   |                   |               |
 |  25   |  MX5   |                   |               |
 |  26   |  MX4   |                   |               |
-|  27   |  MX9   |                   |               |
+|  27   |  MY9   |                   |               |
 |  28   |  MX6   |                   |               |
 |  29   |  MX7   |                   |               |
 |  30   |  MX1   |                   |               |

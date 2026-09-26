@@ -7,15 +7,19 @@
 1. 34-pin
    - pitch: 0.5mm
    - key: straight
-   - side: ?
+   - side: dual?
    - lock: back
-   - Compatible MFN: ???
+   - Compatible MPN:
+     - Hirose FH34SRJ-34S-0.5SH(50)?
+       - [Mouser](https://www.mouser.pl/en/ProductDetail/Hirose-Connector/FH34SRJ-34S-0.5SH50?qs=iyLo5FA4poAumYnqXazWvw%3D%3D)
 2. 6-pin
    - pitch: 0.5mm
    - key: straight
-   - side: ?
+   - side: dual?
    - lock: back
-   - Compatible MFN: ???
+   - Compatible MPN:
+     - Hirose FH34SRJ-6S-0.5SH(50)?
+       - [Mouser](https://www.mouser.pl/en/ProductDetail/Hirose-Connector/FH34SRJ-6S-0.5SH50?qs=vnk2wBG9e15jF3vv7p0sbw%3D%3D)
 
 ## Pinout (34-pin)
 
