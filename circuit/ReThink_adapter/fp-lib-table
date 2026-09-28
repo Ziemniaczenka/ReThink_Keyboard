@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ReThink_footprints") (type "KiCad") (uri "${KIPRJMOD}/../libraries/footprints.pretty") (options "") (descr ""))
+)

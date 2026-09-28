@@ -24,7 +24,7 @@ Adapting older ThinkPad laptop keyboard modules into standalone keyboards using 
 
 ## ReThink Adapter
 
-   Adapter board that will connect to Control Board using FFC cable, then have a bunch of connectors for different generations of ThinkPad, boost converter (if necessary for pointing stick, backlight (TBD)) and probably i2c IO expander (because of number of direct, non-matrix keys and LEDs on older generations that I want to keep functional).
+   Adapter board connects to Control Board using FFC cables, has a bunch of connectors for different generations of ThinkPad keyboard, boost converters (for pointing stick, backlight) and I2C IO expander (required to keep all keyboard buttons and diodes functional).
 
 ## Battery
 
@@ -43,6 +43,8 @@ Adapting older ThinkPad laptop keyboard modules into standalone keyboards using 
 
 ReThink keyboard by Ziemniaczenka is licensed under CC BY-SA 4.0.
 To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
+
+Component 3D models located under `circuit/libraries/3dmodels/` are the intellectual property of their respective manufacturers and are provided for reference/visualization purposes only. They are not covered by the above license; all rights remain with their original owners.
 
 ## Disclaimers
 > Framework Control Board was provided pre-release by Framework Computer Inc. through Control Board Developer Program.
