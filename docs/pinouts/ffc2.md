@@ -41,15 +41,15 @@ Dual keyed FFC connectors:
 
 ## Compatible models (TBD)
 
-- T470, T480, T25 (w/o power button), A475, A485 (36pin)
-- A285, L13g1, L13g2?, X280, X290, X390, X395, X13g1? (36pin)
-- T570, T580, P51s, P52s (40pin)
-- L14g1, L14g2 (40pin)
-- L15g1, L15g2 (40pin)
-- E480, E485, E490, E495, L380, L390, L480, L490, T480s, T490, T14g1, T14g2, P43, P43s, P14sG1, P14sG2 (40pin)
-- E580, E585, E590, E595, L580, L590, T590, P52, P53, P53s, P72, P73 (40pin)
-- T15g1, T15g2, P15sG1, P15sG2 (40pin) 
-- P15g1, P15g2, P17g1, P17g2 (40pin)
+- T470, T480, T25 (w/o power button), A475, A485 **(12pin left, 36pin right, kb right side)**
+- ~~A285, L13g1, L13g2?, X280, X290, X390, X395, X13g1? **(36pin left, 12pin right, kb left side)**~~
+- T570, T580, P51s, P52s (40pin left, 12pin right, kb **right** side)
+- L14g1, L14g2 (40pin left, 12pin right, kb left side)
+- L15g1, L15g2 (40pin left, 12pin right, kb left side)
+- E480, E485, E490, E495, L380, L390, L480, L490, T480s, T490, T14g1, T14g2, P43, P43s, P14sG1, P14sG2 (40pin left, 12pin right, kb left side)
+- E580, E585, E590, E595, L580, L590, T590, P52, P53, P53s, P72, P73 (40pin left, 12pin right, kb left side)
+- T15g1, T15g2, P15sG1, P15sG2 (40pin left, 12pin right, kb left side)
+- P15g1, P15g2, P17g1, P17g2 (40pin left, 12pin right, kb **right** side)
 
 ## Pinout (36-pin/40pin)
 
