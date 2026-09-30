@@ -11396,6 +11396,12 @@
 		(uuid "e7e6cb77-d08e-4556-b87c-0a3e5cb2c924")
 	)
 	(junction
+		(at 226.06 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac8ff89-c0d0-42a9-a64d-1ed3eb67ec53")
+	)
+	(junction
 		(at 363.22 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11675,7 +11681,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 234.95) (xy 226.06 237.49)
+			(xy 226.06 234.95) (xy 226.06 236.22)
 		)
 		(stroke
 			(width 0)
@@ -11855,7 +11861,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 236.22) (xy 229.87 236.22)
+			(xy 217.17 236.22) (xy 226.06 236.22)
 		)
 		(stroke
 			(width 0)
@@ -12122,6 +12128,16 @@
 			(type default)
 		)
 		(uuid "2b0bf472-7aa7-43c9-8354-b8552529ccc6")
+	)
+	(wire
+		(pts
+			(xy 226.06 236.22) (xy 226.06 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cec8b4b-ba76-4fed-ae4f-0c8cd9688d53")
 	)
 	(wire
 		(pts
@@ -30929,7 +30945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 340.36 48.26 0)
 			(hide yes)
 			(show_name no)

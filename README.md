@@ -55,5 +55,6 @@ Component 3D models located under `circuit/libraries/3dmodels/` are the intellec
 
 ## References
 1. https://github.com/FrameworkComputer/Framework-Wireless-Touchpad-Keyboard
-2. https://github.com/rampadc/kb_zmk_ps2_mouse_trackpoint_driver
-3. https://github.com/delingren/thinkpad_keyboards
+2. https://github.com/badjeff/kb_zmk_ps2_mouse_trackpoint_driver
+3. https://github.com/rampadc/zmk-thinkpad
+4. https://github.com/delingren/thinkpad_keyboards
