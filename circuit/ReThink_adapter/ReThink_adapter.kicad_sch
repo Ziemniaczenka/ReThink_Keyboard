@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "6cef7f30-4344-4878-be02-7aa54a02ef81")
 	(paper "A3")
+	(title_block
+		(title "ReThink Adapter")
+		(date "2026-09-30")
+		(rev "V0.1")
+		(company "Ziemniaczenka")
+		(comment 1 "To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/")
+		(comment 2 "ReThink keyboard by Ziemniaczenka is licensed under CC BY-SA 4.0.")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -16164,6 +16172,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e658234-7db9-4ee6-976a-aa2be5cbe949")
+	)
+	(label "SW"
+		(at 345.44 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eef81dd-bd61-4f44-9cc7-f4100bcd67c4")
 	)
 	(label "LEDPWR"
 		(at 365.76 168.91 180)

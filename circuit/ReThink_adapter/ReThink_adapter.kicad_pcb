@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -50,6 +89,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -90,7 +130,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "01e1fa65-e97a-49c0-a9f9-4771126d79b9")
-		(at 176.82 149.39)
+		(at 119.82 99.015)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -137,18 +177,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f681e92e-32d9-4b51-9af9-9c4c56dafb62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
 			(unlocked yes)
@@ -192,6 +220,12 @@
 		(path "/38da42fc-3ad1-42a7-ac26-1a76d85f44e6")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -281,7 +315,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "04a93e93-cbf1-4906-8899-9740a9ed4608")
-		(at 121.38425 73.84)
+		(at 101.625 68.14)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R12"
@@ -328,18 +362,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "785c9a09-be25-4eea-b39c-f69fc3ac27a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -357,6 +379,12 @@
 		(path "/07ee9045-58ca-419f-8435-48aa4a8686b5")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -493,18 +521,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b3b55431-459f-410a-8651-ee5e44148967")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -522,6 +538,12 @@
 		(path "/8151b4e1-3a9c-476d-b1bd-145625488605")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -611,7 +633,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "069dc13c-80d5-43e7-93dd-e744f5132aaf")
-		(at 183.8 136.31)
+		(at 126.8 96.01)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C20"
@@ -658,18 +680,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d134fbee-e415-4e1d-af4f-a011036585ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
 			(unlocked yes)
@@ -700,6 +710,12 @@
 		(path "/b837a3e2-8fad-4131-a2b7-beb32d1316db")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -789,7 +805,7 @@
 	(footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
 		(layer "F.Cu")
 		(uuid "0e9983f0-b315-476e-af96-dc32f93f9405")
-		(at 193.15 132.9 90)
+		(at 136.15 92.6 90)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP7"
@@ -909,6 +925,12 @@
 		(path "/41d026c8-bd90-4574-9863-5804d668ce3e")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -1168,7 +1190,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0ff9b794-739d-4ad9-8e4e-bf7baec07bdb")
-		(at 168.78 149.3 90)
+		(at 111.78 98.925 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R19"
@@ -1215,18 +1237,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "766ed9c1-ebe6-400e-8484-a83bb41469dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -1244,6 +1254,12 @@
 		(path "/b2df21d8-d885-4898-976f-87e1286a73c0")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1380,18 +1396,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f734ff34-4059-4b88-8783-8e5810259b4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1409,6 +1413,12 @@
 		(path "/59c389ee-a28d-44b6-8f05-8c20567611c4")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1545,18 +1555,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1deecbed-70ec-4cbf-b50f-6ee5bb7e6c9e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -1626,6 +1624,12 @@
 		(path "/dadb5229-51c3-4151-a127-adc9bf30b827")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "5" "7" "8" "9" "6" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2006,18 +2010,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c58600e5-2c9b-4ac0-b4f4-308f3e49eefd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 180)
 			(unlocked yes)
@@ -2087,6 +2079,12 @@
 		(path "/942a9624-2839-4e10-b645-79f84f5025c6")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2176,7 +2174,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "19fe4b8a-a7e2-4538-af26-81b7c43a7f22")
-		(at 95.9875 62.2)
+		(at 95.9875 61.9)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C16"
@@ -2223,19 +2221,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "25"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3f7ffcc-0deb-4cbc-b809-d64eadb5ee89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "C0G"
 			(at 0 0 0)
 			(unlocked yes)
@@ -2262,10 +2247,29 @@
 				)
 			)
 		)
+		(property "Voltage" "25"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d25f78a-67a8-4999-9c0c-a7830d8d9011")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d7b3a46f-34e9-4d87-80ae-1bc74454d203")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2355,7 +2359,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2103f29c-b1cc-4015-9e36-013f73210000")
-		(at 95.4875 67.7 90)
+		(at 95.4875 67.4 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
@@ -2402,18 +2406,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "33aa4b3d-aff3-40fa-b39f-b9aef6c91a0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
@@ -2457,6 +2449,12 @@
 		(path "/f65a6227-a081-475d-abdc-319f3ea3e5de")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2546,7 +2544,7 @@
 	(footprint "ReThink_footprints:FH34SRJ-6S-0.5SH(50)"
 		(layer "F.Cu")
 		(uuid "36f1b48a-c4be-42b6-8a7c-b5d35f617e0c")
-		(at 177.8 68.15 180)
+		(at 144 62 180)
 		(descr "Hirose FH34 6-pin P0.5mm dual sided FFC/FPC connector")
 		(tags "Hirose FH34 6-pin")
 		(property "Reference" "J2"
@@ -2603,6 +2601,12 @@
 		(path "/0bf4b1c7-0383-4d89-95d6-55d6a776b61f")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "MP")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2967,18 +2971,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0ee129dd-4d17-4025-9d9c-24414a19e7da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
@@ -3048,6 +3040,12 @@
 		(path "/91d83197-04da-452d-b1fe-06ef5fe78e87")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3137,7 +3135,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3f6dbf72-fe7e-4a62-a50e-53a3dc359968")
-		(at 188.99 134.89)
+		(at 131.99 94.59)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
@@ -3184,18 +3182,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8960e7dc-2cde-42be-a2f4-f491a4a8fef3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3213,6 +3199,12 @@
 		(path "/74fd52ae-e0ba-4519-bdc5-2c4441b3b228")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3302,7 +3294,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "43b211bf-7724-4e8f-bc16-751a04591a0a")
-		(at 121.38425 71.85)
+		(at 101.625 66.15)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -3349,18 +3341,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ce2d7e77-8013-46d3-b8b8-67181ca4717e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3378,6 +3358,12 @@
 		(path "/78637c8b-d6f9-40ec-bcc5-b90bd2d3e52f")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3467,7 +3453,7 @@
 	(footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
 		(layer "F.Cu")
 		(uuid "43c7c8b0-8e29-40ee-994d-94d534068e08")
-		(at 134.93425 82.35)
+		(at 115.175 76.65)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP6"
@@ -3587,6 +3573,12 @@
 		(path "/68488111-55af-4c05-94a4-a925bb9330a6")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -3846,7 +3838,7 @@
 	(footprint "ReThink_footprints:XF3M(1)-0815-1B"
 		(layer "F.Cu")
 		(uuid "4f6877dd-165f-43e2-ab5d-066e2d2c0281")
-		(at 93.5875 65.3 -90)
+		(at 93.5875 65 -90)
 		(descr "Omron XF3M(1) 8-pin P1.0mm dual sided FFC/FPC connector")
 		(tags "Omron XF3M(1) 8-pin")
 		(property "Reference" "J5"
@@ -3903,6 +3895,12 @@
 		(path "/93207275-42a9-4519-a62a-00ce95397f8e")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "MP")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4128,7 +4126,7 @@
 	(footprint "ReThink_footprints:FH34SRJ-40S-0.5SH(50)"
 		(layer "F.Cu")
 		(uuid "538ceae8-6aba-4da4-8333-b6aa44612193")
-		(at 212.75 151.5)
+		(at 155.75 101.125)
 		(descr "Hirose FH34 40-pin P0.5mm dual sided FFC/FPC connector")
 		(tags "Hirose FH34 40-pin")
 		(property "Reference" "J6"
@@ -4185,6 +4183,15 @@
 		(path "/b6405d75-5ed7-4554-bb14-456ef3e745fa")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29"
+					"30" "31" "32" "33" "34" "35" "36" "37" "38" "39" "40" "MP"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5297,18 +5304,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7a61e1a2-390a-4a9c-a8ef-48bfafbd9a43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -5378,6 +5373,14 @@
 		(path "/1a6f9b89-067f-49a6-8eb5-f6d81804ec48")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "19" "20" "22" "24" "18" "23" "25" "9" "21" "1" "2" "3" "4" "5"
+					"6" "7" "8" "10" "11" "12" "13" "14" "15" "16" "17"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6025,7 +6028,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "5b8c3c9c-8218-433b-98fa-452604e92449")
-		(at 135.15925 67.15)
+		(at 115.4 61.45)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
@@ -6145,6 +6148,12 @@
 		(path "/a8cd27d0-d771-49e0-8ab1-00d1fe6f6d55")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -6360,7 +6369,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5e38d1fa-2963-4c18-961f-fca9fde7ba85")
-		(at 134.80925 69.65)
+		(at 115.05 63.95)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -6407,18 +6416,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d2cf247c-dea5-4945-afc5-e6de7f29cdc4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
 			(unlocked yes)
@@ -6449,6 +6446,12 @@
 		(path "/afa971b6-921a-4462-949b-086f5d6323e3")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6585,18 +6588,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b0055d5c-1cc7-4fc6-80ad-05d3f3527bdf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6614,6 +6605,12 @@
 		(path "/730891d7-78b9-4c7a-8b36-0c734d6f69a1")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6750,18 +6747,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "33ecb0eb-918a-4061-a17f-596db27d7570")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -6779,6 +6764,12 @@
 		(path "/2bc056b2-1ade-49b9-aa97-4e0b7d11ff66")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6868,7 +6859,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6b3c3f18-b790-47d4-a5ee-4c55ed0e445c")
-		(at 134.80925 72.66)
+		(at 115.05 66.96)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -6915,18 +6906,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ddd79775-0d1c-4ba9-a1ca-8bec619147c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
 			(unlocked yes)
@@ -6957,6 +6936,12 @@
 		(path "/4b6812e3-73b2-452d-aa3e-7f10a4cc2449")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7046,7 +7031,7 @@
 	(footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
 		(layer "F.Cu")
 		(uuid "6f36a063-aeca-4a5d-9a4c-20a6cf6e54ab")
-		(at 196.7 132.9 90)
+		(at 139.7 92.6 90)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP8"
@@ -7166,6 +7151,12 @@
 		(path "/a9429d62-fe9b-4a08-aa26-7a9bec023e29")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -7472,18 +7463,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1b98f350-6561-47a6-90db-333483df7d7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 180)
 			(unlocked yes)
@@ -7553,6 +7532,12 @@
 		(path "/63cb9cdc-455d-4f08-a9f2-040d1448a9a7")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7689,18 +7674,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8c2a2ad9-4642-49da-a061-aa62cb7b9e2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "IHHP0806ZHER1R0M01"
 			(at 0 0 0)
 			(unlocked yes)
@@ -7718,6 +7691,12 @@
 		(path "/d1b40362-b04f-40fb-8a00-5bc42ea18362")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7788,7 +7767,7 @@
 			(size 0.95 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4-SW)")
+			(net "/SW")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "92b8dff7-65f8-45ce-b8f0-c3998d3341c8")
@@ -7877,6 +7856,12 @@
 		(path "/bf554198-7a84-44ef-9b5e-ebc94fcf5f9b")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -7927,7 +7912,7 @@
 	(footprint "ReThink_footprints:XF3M(1)-3015-1B"
 		(layer "F.Cu")
 		(uuid "7a569f0e-4e4a-4e5b-81cf-cee83a76361e")
-		(at 93.5875 90.5 -90)
+		(at 93.5875 89.9 -90)
 		(descr "Omron XF3M(1) 30-pin P1.0mm dual sided FFC/FPC connector")
 		(tags "Omron XF3M(1) 30-pin")
 		(property "Reference" "J4"
@@ -7984,6 +7969,15 @@
 		(path "/ff2d9064-0f7d-420d-848f-47d7b94cc51d")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29"
+					"30" "MP"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8429,7 +8423,7 @@
 	(footprint "ReThink_footprints:XF3M(1)-1415-1B"
 		(layer "F.Cu")
 		(uuid "7d490576-edde-4823-a93d-93be2fb063f3")
-		(at 190 150)
+		(at 133 99.625)
 		(descr "Omron XF3M(1) 14-pin P1.0mm dual sided FFC/FPC connector")
 		(tags "Omron XF3M(1) 14-pin")
 		(property "Reference" "J8"
@@ -8486,6 +8480,12 @@
 		(path "/31e340f3-aea8-410d-8ada-7da2a4fd791a")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "MP")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8771,7 +8771,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7eb26e4c-e826-4469-9d46-5bd6ed846d06")
-		(at 121.38425 75.83)
+		(at 101.625 70.13)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -8818,18 +8818,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c3cf3e18-da50-45c7-970d-f98fd875d9ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -8847,6 +8835,12 @@
 		(path "/1ab163ea-14d0-4167-9c31-9d1a6dfeaaf1")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8936,7 +8930,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "806b4636-7571-43e4-b017-0b3717bc9496")
-		(at 121.39425 79.75)
+		(at 101.635 74.05)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -8983,18 +8977,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "38eb3c41-5251-4ea4-8c82-d9a9a294e705")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -9012,6 +8994,12 @@
 		(path "/5dd07f30-b3bc-42b7-981c-5b632425c15d")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9101,7 +9089,7 @@
 	(footprint "ReThink_footprints:FH34SRJ-34S-0.5SH(50)"
 		(layer "F.Cu")
 		(uuid "807c51d3-c81d-4f5f-a81d-f91ea9ff45c7")
-		(at 163.8 68.15 180)
+		(at 130 62 180)
 		(descr "Hirose FH34 34-pin P0.5mm dual sided FFC/FPC connector")
 		(tags "Hirose FH34 34-pin")
 		(property "Reference" "J1"
@@ -9158,6 +9146,15 @@
 		(path "/bef799cc-83e8-4de1-949c-8a08712caa59")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29"
+					"30" "31" "32" "33" "34" "MP"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10091,7 +10088,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "86808332-c8f3-4afd-823f-b7ca4d40c27f")
-		(at 172.76 149.3 90)
+		(at 115.76 98.925 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R21"
@@ -10138,18 +10135,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "85ba11d2-d969-4a12-bd68-ebacaa98d3e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -10167,6 +10152,12 @@
 		(path "/c03ceeb7-0eec-4c60-a07b-9148543bbc4e")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10256,7 +10247,7 @@
 	(footprint "ReThink_footprints:Mezzanine_combo"
 		(layer "F.Cu")
 		(uuid "871b5326-e410-46b1-9aa7-7a1b6395a822")
-		(at 127.75925 72.2 180)
+		(at 108 66.5 180)
 		(descr "Combination of footprint for both JAE AA01B-S040VA1 and  Molex 543630489")
 		(tags "543630489 AA01B-S040VA1")
 		(property "Reference" "J3"
@@ -10374,6 +10365,16 @@
 		(path "/54d957d8-558d-4808-8624-afe2a20077c3")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "P2" "2" "4" "6" "8" "10" "12" "14" "16" "18" "20" "22" "24" "26"
+					"28" "30" "32" "34" "36" "38" "40" "P4" "1" "3" "5" "7" "9" "11" "13"
+					"15" "17" "19" "21" "23" "25" "27" "29" "31" "33" "35" "37" "39" "P3"
+					"P1"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11339,18 +11340,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "aaa612b2-b765-4ff2-96b9-24e7d6baa594")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 270)
 			(unlocked yes)
@@ -11420,6 +11409,12 @@
 		(path "/02a103e5-7259-4db8-a7d5-282af5e8bb87")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11509,7 +11504,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a331cda1-c874-4043-94e7-d8e16b1e1174")
-		(at 120.91425 65.65)
+		(at 101.155 59.95)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -11556,19 +11551,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "25"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "079c2d12-cf78-49e9-96d6-500875ba21bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "C0G"
 			(at 0 0 0)
 			(unlocked yes)
@@ -11595,10 +11577,29 @@
 				)
 			)
 		)
+		(property "Voltage" "25"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b49e7b9a-f2e9-4823-9cae-149c74f71b16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/452d3acf-d28b-4db2-9c3e-bb9e19fb5ccb")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11735,19 +11736,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "25"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70632f42-ee4c-4912-9ed3-ad084fa2572b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "C0G"
 			(at 0 0 90)
 			(unlocked yes)
@@ -11774,10 +11762,29 @@
 				)
 			)
 		)
+		(property "Voltage" "25"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "859bc99a-3651-4570-9798-d9acf7a14b10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/479bac62-32d4-41df-90dd-1c1f5e9c82e2")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11867,7 +11874,7 @@
 	(footprint "ReThink_footprints:FH52-40S-0.5SH"
 		(layer "F.Cu")
 		(uuid "a6163b31-9861-4376-b07a-0278b32b69e1")
-		(at 163.5 152)
+		(at 106.5 101.625)
 		(descr "Hirose FH34 40-pin P0.5mm dual sided FFC/FPC connector")
 		(tags "Hirose FH34 40-pin")
 		(property "Reference" "J7"
@@ -11924,6 +11931,15 @@
 		(path "/8965a5fe-77b0-4ae1-a279-75cccf08ae1d")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29"
+					"30" "31" "32" "33" "34" "35" "36" "37" "38" "39" "40" "MP"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13066,18 +13082,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1f54765c-6afe-47b7-bfa1-00f6bcb5604b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -13095,6 +13099,12 @@
 		(path "/9b239034-e92d-49e5-b07c-ddb4213a4def")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13231,18 +13241,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "156655bb-969d-4272-a893-1262273f23bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
@@ -13286,6 +13284,12 @@
 		(path "/6959f34f-9013-4144-9716-f79f2abc4bc8")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13375,7 +13379,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b4f6ab17-b7ab-4f7f-9b5a-c36b3cccefbb")
-		(at 121.38425 77.82)
+		(at 101.625 72.12)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -13422,18 +13426,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fa1a1300-da18-4e2f-a30e-2cc1e9b173a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -13451,6 +13443,12 @@
 		(path "/f3cce329-7d33-4c11-a00b-18f3593a870a")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13540,7 +13538,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "babf7cde-4248-457e-ae98-15aa0258680e")
-		(at 164.8 149.3 90)
+		(at 107.8 98.925 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R17"
@@ -13587,18 +13585,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f935baa7-8752-44c3-bad1-6c55519f424e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -13616,6 +13602,12 @@
 		(path "/c866007f-2f54-462e-b0a5-d4c06c85cfb3")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13752,18 +13744,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a36fd784-4e84-46d4-9436-11953d116533")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -13781,6 +13761,12 @@
 		(path "/ae5416ca-6e95-4743-a338-d8779f8a6d1e")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13870,7 +13856,7 @@
 	(footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
 		(layer "F.Cu")
 		(uuid "baeb34c8-bd40-459f-a6c4-7b11c3ca15c4")
-		(at 134.93425 78.8)
+		(at 115.175 73.1)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP5"
@@ -13990,6 +13976,12 @@
 		(path "/41fe0c64-7680-4847-b0e9-b4f526518495")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -14296,18 +14288,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8eb2529e-a233-4f01-bf76-4bbf0687d5f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -14377,6 +14357,12 @@
 		(path "/56af5c97-5528-4598-984a-ef18292f9b4b")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "4" "2" "1" "7" "8" "6" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14650,7 +14636,7 @@
 	(footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
 		(layer "F.Cu")
 		(uuid "bc5e017e-ebbf-4326-8760-582b3b82a48d")
-		(at 134.93425 75.25)
+		(at 115.175 69.55)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP4"
@@ -14770,6 +14756,12 @@
 		(path "/cfb255c3-4201-4103-b0c8-2c3798d411ea")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -15149,6 +15141,12 @@
 		(path "/19589a13-c583-4b5c-a38e-d9c333032d1d")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -15485,6 +15483,12 @@
 		(path "/834eafde-f9c0-4a94-b64c-35951de3d8a9")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "6" "7" "8" "4" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15692,7 +15696,7 @@
 			(size 0.67 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net "Net-(U4-SW)")
+			(net "/SW")
 			(pinfunction "SW_7")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -15725,7 +15729,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c1c74523-2af9-4f1c-a5ca-e8c7a5d51306")
-		(at 166.79 149.3 90)
+		(at 109.79 98.925 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -15772,18 +15776,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7077aee9-bb3b-4c9c-9f68-6fc843e2c173")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -15801,6 +15793,12 @@
 		(path "/1c4aa977-f817-4606-833b-ccf16843d174")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15937,18 +15935,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c10d7e81-986a-4656-867f-4b715fb89b9e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -15966,6 +15952,12 @@
 		(path "/73bf1129-390e-49db-92c1-0a4571933bf4")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16102,18 +16094,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bfecd4ce-8df1-4917-b7f3-0b37329ae628")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
@@ -16157,6 +16137,12 @@
 		(path "/97482a5e-82c6-4fd7-ac5a-ab3ad9f194d2")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16246,7 +16232,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cf81109b-02b0-4f8b-8562-2ca7a8fe38f7")
-		(at 188.99 132.9)
+		(at 131.99 92.6)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R22"
@@ -16293,18 +16279,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "36d1b7b2-c952-47a7-a773-a2cf231bdd02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -16322,6 +16296,12 @@
 		(path "/d60b3d15-52f2-4590-8107-1b85976e70a5")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16411,7 +16391,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d09a3777-f711-4c89-9df2-4ed3afb7c8f4")
-		(at 188.99 136.88)
+		(at 131.99 96.58)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -16458,18 +16438,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bf3df7c2-b3ed-4c5d-8a01-fb4041ac2cdb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -16487,6 +16455,12 @@
 		(path "/9409e7c9-3cd1-4acb-8e22-3a94c8c763f7")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16576,7 +16550,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d2350cff-ca90-42f2-b48a-19113dcd4167")
-		(at 170.77 149.3 90)
+		(at 113.77 98.925 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -16623,18 +16597,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "971f51dd-c2fa-4053-92eb-861cffef0ae9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -16652,6 +16614,12 @@
 		(path "/ac84cb86-3526-4146-9275-19d68cc63f83")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16741,7 +16709,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d27423d8-14bb-499f-96f5-e0a4bd5a12a3")
-		(at 121.39425 81.74)
+		(at 101.635 76.04)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -16788,18 +16756,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "79c938fc-1154-41f0-b419-47ac07bb3a4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -16817,6 +16773,12 @@
 		(path "/97165aad-3174-4550-b7ea-f96ccb6cb9d5")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16953,18 +16915,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7ba87630-b8e3-4529-bc28-2d69075937fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -16982,6 +16932,12 @@
 		(path "/0cf278d2-988e-4399-98a7-2af0aa8d8c81")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17118,18 +17074,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "96a4fa51-552d-47ea-b26e-4a47ec264a03")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
@@ -17173,6 +17117,12 @@
 		(path "/98b8d10f-7453-49c2-84c9-4d02304820bd")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17262,7 +17212,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d69b6f4b-20ab-4520-b830-3bcbb79992a3")
-		(at 191.6 136.8 90)
+		(at 134.6 96.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C18"
@@ -17309,18 +17259,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1aa29511-9419-40d6-a7fc-aaf11381c0fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
@@ -17364,6 +17302,12 @@
 		(path "/13738352-a5c5-4195-aca0-d6a9684374c9")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17573,6 +17517,12 @@
 		(path "/2be439be-069e-4bad-95ba-ccfc55729096")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -17835,18 +17785,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "44af0175-397f-43c8-b967-159d90b9d11b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -17864,6 +17802,12 @@
 		(path "/a290788e-7a49-4555-a7b9-40517eb9f582")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17953,7 +17897,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ec17afe9-2860-4ee0-a4c8-76d454fc0845")
-		(at 121.01425 68.95)
+		(at 101.255 63.25)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -18000,19 +17944,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "25"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2aa3dd0d-ebae-4bad-8896-33eef85cdeff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
 			(unlocked yes)
@@ -18039,10 +17970,29 @@
 				)
 			)
 		)
+		(property "Voltage" "25"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4af6a82-1a40-4d58-b949-ff099d23a7b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/71215bdb-e065-483e-bce4-bc31b2664335")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18179,18 +18129,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9e79cfe7-b06d-4b95-bc5e-c0af919df5de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
@@ -18260,6 +18198,12 @@
 		(path "/5049a1e9-7181-48cd-ab25-c10b2f85f3ba")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18349,7 +18293,7 @@
 	(footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
 		(layer "F.Cu")
 		(uuid "f5426d72-9837-44ac-9cc5-b76fdb481fa7")
-		(at 200.25 132.9 90)
+		(at 143.25 92.6 90)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP9"
@@ -18469,6 +18413,12 @@
 		(path "/94ea2c8e-1f66-45d3-bcf7-af1caf5d5089")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -18728,7 +18678,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f84e5928-65d5-4294-9a19-fa8d57e81c4b")
-		(at 180.82 137.9)
+		(at 123.82 97.6)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C21"
@@ -18775,19 +18725,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "25"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4028b6b9-cf4e-4aff-98b0-908d034e1802")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "C0G"
 			(at 0 0 0)
 			(unlocked yes)
@@ -18814,10 +18751,29 @@
 				)
 			)
 		)
+		(property "Voltage" "25"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8d0d78f-e7bf-4cad-9283-265348d22e9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fa7567c2-faac-420a-b13a-c8a1c646d54f")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18954,18 +18910,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b63922ae-c3af-40ff-98ed-85956943303d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 270)
 			(unlocked yes)
@@ -19035,6 +18979,12 @@
 		(path "/a82f3047-f24b-4a5a-b965-8177abf12034")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19124,7 +19074,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fd48e6e4-e55d-4f5c-b44e-61854ae01cd3")
-		(at 183.8 133.3)
+		(at 126.8 93)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C19"
@@ -19171,18 +19121,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b44261f1-2912-444b-9991-b507c70b7fae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
 			(unlocked yes)
@@ -19213,6 +19151,12 @@
 		(path "/8fac0dcd-8620-402a-888a-be862c0e78a9")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19349,18 +19293,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f0eff590-365b-4417-b290-8fbf78a42a10")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -19378,6 +19310,12 @@
 		(path "/d2a750eb-047c-45c5-938c-47f3610090a6")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19514,18 +19452,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3e3cb5d5-fa0d-4ebd-8ba2-71625275a86b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
@@ -19569,6 +19495,12 @@
 		(path "/c40d4982-8b26-4d61-89ec-042d95760e01")
 		(sheetname "/")
 		(sheetfile "ReThink_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19656,8 +19588,19 @@
 		)
 	)
 	(gr_rect
-		(start 118.25925 64)
-		(end 135.25925 82)
+		(start 86.5 58)
+		(end 166.5 108)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "f1708a46-4dd0-4cc8-bd1d-6f517265f2bf")
+	)
+	(gr_rect
+		(start 98.5 58.3)
+		(end 115.5 76.3)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -19667,7 +19610,7 @@
 		(uuid "a859a9fb-265b-4957-ab3c-3a6fb510b633")
 	)
 	(gr_text "Connector orientation:\nGood\nPlacement:\nGrouped"
-		(at 67.525 68.3 0)
+		(at 67.525 68 0)
 		(layer "User.1")
 		(uuid "ed6c9d0e-b82f-4be3-9ccd-484f7b047a8f")
 		(effects
@@ -19679,7 +19622,7 @@
 		)
 	)
 	(gr_text "Connector orientation:\nGood\nPlacement:\nGrouped"
-		(at 69.025 94.9 0)
+		(at 69.025 94.6 0)
 		(layer "User.1")
 		(uuid "5a9a59fe-ad52-48ef-965d-fde44997f9e6")
 		(effects
@@ -19691,7 +19634,7 @@
 		)
 	)
 	(gr_text "Max height: 1.5mm"
-		(at 119.35925 63.6 0)
+		(at 99.6 57.9 0)
 		(layer "User.1")
 		(uuid "23a3423b-e5bb-4b50-a3f1-e376140dcaf7")
 		(effects
@@ -19702,8 +19645,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Connector orientation:\nGood\nPlacement:\nGrouped"
+		(at 101.5 115.825 0)
+		(layer "User.1")
+		(uuid "e231a070-f6ae-4272-b4c1-4cc49a38fa88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Connector orientation:\nGood\nPlacement:\nNot checked"
-		(at 124.5 61.1 0)
+		(at 104.74075 55.4 0)
 		(layer "User.1")
 		(uuid "85883936-4c3d-4498-b1f3-173ed744e561")
 		(effects
@@ -19715,7 +19670,7 @@
 		)
 	)
 	(gr_text "Connector orientation:\nGood\nPlacement:\nGrouped"
-		(at 154.5 62.65 0)
+		(at 120.7 56.5 0)
 		(layer "User.1")
 		(uuid "28289cbd-29fa-4c70-8c4a-83e4e9bcb1b1")
 		(effects
@@ -19726,32 +19681,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Connector orientation:\nGood\nPlacement:\nGrouped"
-		(at 158.5 166.2 0)
-		(layer "User.1")
-		(uuid "e231a070-f6ae-4272-b4c1-4cc49a38fa88")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Connector orientation:\nGood\nPlacement:\nGrouped"
-		(at 175.3 63.35 0)
-		(layer "User.1")
-		(uuid "47b38516-324e-4236-9906-a67f6e733e3f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Connector orientation:\nNot checked\nPlacement:\nGrouped"
-		(at 181 164 0)
+		(at 124 113.625 0)
 		(layer "User.1")
 		(uuid "c3410532-7d0e-46ff-8443-b517f0a205db")
 		(effects
@@ -19763,7 +19694,19 @@
 		)
 	)
 	(gr_text "Connector orientation:\nGood\nPlacement:\nGrouped"
-		(at 203.8 164 0)
+		(at 141.5 57.2 0)
+		(layer "User.1")
+		(uuid "47b38516-324e-4236-9906-a67f6e733e3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Connector orientation:\nGood\nPlacement:\nGrouped"
+		(at 146.8 113.625 0)
 		(layer "User.1")
 		(uuid "6cff2c17-0773-4f36-96bf-5c14269e86fa")
 		(effects
@@ -19775,81 +19718,26 @@
 		)
 	)
 	(group ""
-		(uuid "12701439-6bc9-42d6-b4b6-87421b7a6555")
-		(members "63026500-81ec-4b77-98a9-167fb2c06e58" "a40c70d4-dd0c-46e6-bb99-1002d87b409f"
-			"af4151ee-4fc6-433d-bdc7-1336dae85612" "bac9c185-904f-4f18-bb9c-ab00b0e7bc93"
-			"bb5974dd-20ef-4484-8967-98e901c61237" "c91651ff-acd1-4f31-a0c3-29c72f8aabe0"
-			"ce12ca47-abb7-484b-8e8a-2897eee9599a" "d36bfe4c-5356-4969-8d9d-1c268cc1094d"
-			"fddab8b3-a38a-4a8f-9ccc-69e766991d98"
-		)
-	)
-	(group ""
-		(uuid "5ca8a83c-50f3-44f2-9cff-4f2bb251a484")
-		(members "11caca47-688d-4372-8dd3-05109f75f3da" "743a60d2-95fa-45fb-88c5-f2ea1731b1c3"
-			"757a9751-135f-459d-92f2-7cae36c3adc0" "99906f81-f2d6-48f1-ae3e-5f7015a4beee"
-			"bea7da7e-4201-44de-b881-9e9eae41c8b1" "bf4e64d7-3050-4f78-9ed5-55a67fc31375"
-			"fcb2553f-e9ff-4f94-8c42-f964c87c3585"
-		)
-	)
-	(group ""
-		(uuid "c9891c35-2af2-4d65-8f6f-add3639fe18c")
-		(members "147c5d30-9867-47da-b931-d87d30170b36" "176c790e-951d-40d6-964d-baf029d7ba7d"
-			"3cf20652-ce46-47ef-8510-edec2ed98177" "d8fa5533-25a8-4575-b067-94b5d8905451"
-			"ed65511a-5e2a-4198-a701-2d1126328354"
-		)
-	)
-	(group ""
-		(uuid "ce38af6a-51b3-46a1-8d8a-85bd5979899d")
-		(members "065345ca-9a80-4abd-8666-8afddec2adfd" "58597951-ae1a-420c-9953-260b1c89a1f0"
-			"652cbc85-6079-4e57-8f56-51178806e976" "778dff39-5597-4c9a-8d93-5c714b1a341d"
-			"a9228c18-ae59-4558-a02b-235e0192e55f" "d4bec7f3-0a4b-4a6c-9f57-c44191be3d52"
-			"db056d2d-2266-4eeb-b025-6f024f3fbbbb" "fea7f199-9a06-4772-b5ed-c231aa918427"
-		)
-	)
-	(group ""
 		(uuid "3b288be7-b458-46e8-a616-8cbe3211fa8f")
-		(members "01e1fa65-e97a-49c0-a9f9-4771126d79b9" "069dc13c-80d5-43e7-93dd-e744f5132aaf"
-			"0e9983f0-b315-476e-af96-dc32f93f9405" "0ff9b794-739d-4ad9-8e4e-bf7baec07bdb"
-			"3f6dbf72-fe7e-4a62-a50e-53a3dc359968" "538ceae8-6aba-4da4-8333-b6aa44612193"
-			"6cff2c17-0773-4f36-96bf-5c14269e86fa" "6f36a063-aeca-4a5d-9a4c-20a6cf6e54ab"
-			"7d490576-edde-4823-a93d-93be2fb063f3" "86808332-c8f3-4afd-823f-b7ca4d40c27f"
-			"a6163b31-9861-4376-b07a-0278b32b69e1" "babf7cde-4248-457e-ae98-15aa0258680e"
-			"c1c74523-2af9-4f1c-a5ca-e8c7a5d51306" "c3410532-7d0e-46ff-8443-b517f0a205db"
-			"cf81109b-02b0-4f8b-8562-2ca7a8fe38f7" "d09a3777-f711-4c89-9df2-4ed3afb7c8f4"
-			"d2350cff-ca90-42f2-b48a-19113dcd4167" "d69b6f4b-20ab-4520-b830-3bcbb79992a3"
-			"e231a070-f6ae-4272-b4c1-4cc49a38fa88" "f5426d72-9837-44ac-9cc5-b76fdb481fa7"
-			"f84e5928-65d5-4294-9a19-fa8d57e81c4b" "fd48e6e4-e55d-4f5c-b44e-61854ae01cd3"
-		)
-	)
-	(group ""
-		(uuid "60f88969-c66d-4751-a122-6ac1ac3b5a4f")
-		(members "04a93e93-cbf1-4906-8899-9740a9ed4608" "43b211bf-7724-4e8f-bc16-751a04591a0a"
-			"43c7c8b0-8e29-40ee-994d-94d534068e08" "49be5ec7-20dd-4ece-b798-74540ee9ddc2"
-			"5b8c3c9c-8218-433b-98fa-452604e92449" "5e38d1fa-2963-4c18-961f-fca9fde7ba85"
-			"6b3c3f18-b790-47d4-a5ee-4c55ed0e445c" "7eb26e4c-e826-4469-9d46-5bd6ed846d06"
-			"806b4636-7571-43e4-b017-0b3717bc9496" "85883936-4c3d-4498-b1f3-173ed744e561"
-			"871b5326-e410-46b1-9aa7-7a1b6395a822" "a331cda1-c874-4043-94e7-d8e16b1e1174"
-			"b4f6ab17-b7ab-4f7f-9b5a-c36b3cccefbb" "baeb34c8-bd40-459f-a6c4-7b11c3ca15c4"
-			"bc5e017e-ebbf-4326-8760-582b3b82a48d" "d27423d8-14bb-499f-96f5-e0a4bd5a12a3"
-			"ec17afe9-2860-4ee0-a4c8-76d454fc0845"
-		)
-	)
-	(group ""
-		(uuid "68791ffd-7e12-47f3-9a06-55825fb4f099")
-		(members "28289cbd-29fa-4c70-8c4a-83e4e9bcb1b1" "36f1b48a-c4be-42b6-8a7c-b5d35f617e0c"
-			"47b38516-324e-4236-9906-a67f6e733e3f" "807c51d3-c81d-4f5f-a81d-f91ea9ff45c7"
-		)
-	)
-	(group ""
-		(uuid "cb2f0564-a0e0-4d02-8d12-a78618f9cd27")
-		(members "19fe4b8a-a7e2-4538-af26-81b7c43a7f22" "2103f29c-b1cc-4015-9e36-013f73210000"
-			"4f6877dd-165f-43e2-ab5d-066e2d2c0281" "5a9a59fe-ad52-48ef-965d-fde44997f9e6"
-			"7a569f0e-4e4a-4e5b-81cf-cee83a76361e" "ed6c9d0e-b82f-4be3-9ccd-484f7b047a8f"
+		(members "6cff2c17-0773-4f36-96bf-5c14269e86fa" "c3410532-7d0e-46ff-8443-b517f0a205db"
+			"e231a070-f6ae-4272-b4c1-4cc49a38fa88"
 		)
 	)
 	(group ""
 		(uuid "49be5ec7-20dd-4ece-b798-74540ee9ddc2")
 		(members "23a3423b-e5bb-4b50-a3f1-e376140dcaf7" "a859a9fb-265b-4957-ab3c-3a6fb510b633")
+	)
+	(group ""
+		(uuid "60f88969-c66d-4751-a122-6ac1ac3b5a4f")
+		(members "49be5ec7-20dd-4ece-b798-74540ee9ddc2" "85883936-4c3d-4498-b1f3-173ed744e561")
+	)
+	(group ""
+		(uuid "68791ffd-7e12-47f3-9a06-55825fb4f099")
+		(members "28289cbd-29fa-4c70-8c4a-83e4e9bcb1b1" "47b38516-324e-4236-9906-a67f6e733e3f")
+	)
+	(group ""
+		(uuid "cb2f0564-a0e0-4d02-8d12-a78618f9cd27")
+		(members "5a9a59fe-ad52-48ef-965d-fde44997f9e6" "ed6c9d0e-b82f-4be3-9ccd-484f7b047a8f")
 	)
 	(embedded_fonts no)
 )
