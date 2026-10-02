@@ -52,15 +52,15 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.2,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -565,7 +565,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -817,7 +817,7 @@
         "uuid": "6cef7f30-4344-4878-be02-7aa54a02ef81"
       }
     ],
-    "used_designators": "#FLG1-8,R1-24,J1-9,U1-4,L1,#PWR1-80,JP1-9,C1-24,TP1",
+    "used_designators": "#FLG1-8,R1-24,J1-9,U1-4,L1,#PWR1-82,JP1-9,C1-24,TP1,H1-6",
     "variants": []
   },
   "sheets": [

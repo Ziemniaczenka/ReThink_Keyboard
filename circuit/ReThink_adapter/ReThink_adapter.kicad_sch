@@ -6497,6 +6497,228 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ReThink_symbols:543630489"
 			(body_styles demorgan)
 			(pin_names
@@ -10825,6 +11047,18 @@
 		)
 		(uuid "8feb0572-6c79-48ee-9511-43f1a9896846")
 	)
+	(text "Mounting holes"
+		(exclude_from_sim no)
+		(at 138.176 180.086 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "93db63ea-1191-493c-a997-30e32d8a3746")
+	)
 	(text "Warning! \nShort JP2 only \nfor T430 \nbacklight"
 		(exclude_from_sim no)
 		(at 38.1 210.312 0)
@@ -11276,6 +11510,12 @@
 		(uuid "a1bef98f-3731-4abe-a68e-ff79b8aaf077")
 	)
 	(junction
+		(at 143.51 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5a9f512-101f-4269-b36b-befec31ce550")
+	)
+	(junction
 		(at 339.09 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11324,10 +11564,22 @@
 		(uuid "bedd4ded-0768-4066-93bf-507c7ff64b7d")
 	)
 	(junction
+		(at 143.51 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beecbc1b-f83f-481a-a174-2d4b79220978")
+	)
+	(junction
 		(at 345.44 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bffce682-791b-4801-8bef-903e14d3e792")
+	)
+	(junction
+		(at 143.51 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c246a001-2b29-4e48-9c1b-06f358b3a160")
 	)
 	(junction
 		(at 215.9 74.93)
@@ -11674,6 +11926,16 @@
 			(type default)
 		)
 		(uuid "0aa1c59b-911e-4659-8318-0b676676065a")
+	)
+	(wire
+		(pts
+			(xy 143.51 205.74) (xy 143.51 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b223782-047f-4bad-b7ad-4f966fcf7dc7")
 	)
 	(wire
 		(pts
@@ -12177,7 +12439,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 45.72) (xy 115.57 45.72)
+			(xy 104.14 45.72) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12497,7 +12759,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 204.47) (xy 234.95 204.47)
+			(xy 223.52 204.47) (xy 234.95 204.47)
 		)
 		(stroke
 			(width 0)
@@ -12704,6 +12966,16 @@
 			(type default)
 		)
 		(uuid "4dd8ca2e-c16b-4c79-8b5d-591f68a12cca")
+	)
+	(wire
+		(pts
+			(xy 143.51 215.9) (xy 143.51 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eaa3d42-ed6c-4893-9a7d-491b6761b1b1")
 	)
 	(wire
 		(pts
@@ -13127,7 +13399,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 115.57 40.64)
+			(xy 104.14 40.64) (xy 115.57 40.64)
 		)
 		(stroke
 			(width 0)
@@ -13337,7 +13609,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 207.01) (xy 234.95 207.01)
+			(xy 223.52 207.01) (xy 234.95 207.01)
 		)
 		(stroke
 			(width 0)
@@ -13717,6 +13989,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 220.98) (xy 143.51 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f7c84a-88f8-4875-a83c-acf579d3b47f")
+	)
+	(wire
+		(pts
 			(xy 71.12 240.03) (xy 73.66 240.03)
 		)
 		(stroke
@@ -13957,6 +14239,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 210.82) (xy 143.51 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a288fe41-6229-485e-bb89-8f5974b04c21")
+	)
+	(wire
+		(pts
 			(xy 200.66 264.16) (xy 212.09 264.16)
 		)
 		(stroke
@@ -14077,7 +14369,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 115.57 43.18)
+			(xy 104.14 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -14227,7 +14519,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 140.97) (xy 215.9 140.97)
+			(xy 204.47 140.97) (xy 215.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -14287,7 +14579,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 138.43) (xy 215.9 138.43)
+			(xy 204.47 138.43) (xy 215.9 138.43)
 		)
 		(stroke
 			(width 0)
@@ -14347,7 +14639,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 201.93) (xy 234.95 201.93)
+			(xy 223.52 201.93) (xy 234.95 201.93)
 		)
 		(stroke
 			(width 0)
@@ -14947,7 +15239,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 143.51) (xy 215.9 143.51)
+			(xy 204.47 143.51) (xy 215.9 143.51)
 		)
 		(stroke
 			(width 0)
@@ -15167,7 +15459,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 135.89) (xy 215.9 135.89)
+			(xy 204.47 135.89) (xy 215.9 135.89)
 		)
 		(stroke
 			(width 0)
@@ -15615,8 +15907,8 @@
 		)
 		(uuid "16bd3d45-409e-4332-a136-b128878fb9ee")
 	)
-	(label "LEFT"
-		(at 226.06 207.01 0)
+	(label "TP2_LEFT"
+		(at 223.52 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15985,8 +16277,8 @@
 		)
 		(uuid "4fe11f56-7157-45c5-809b-042fbe270e72")
 	)
-	(label "MIDDLE"
-		(at 107.95 43.18 0)
+	(label "TP1_MIDDLE"
+		(at 104.14 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16035,8 +16327,8 @@
 		)
 		(uuid "54f941ed-f812-4bc2-bf17-c6adc0bd4a2a")
 	)
-	(label "RIGHT"
-		(at 207.01 140.97 0)
+	(label "TP2_RIGHT"
+		(at 204.47 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16145,8 +16437,8 @@
 		)
 		(uuid "6339ce63-dfd0-40f9-8ec7-f1c6cf8013da")
 	)
-	(label "RIGHT"
-		(at 107.95 40.64 0)
+	(label "TP1_RIGHT"
+		(at 104.14 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16155,7 +16447,7 @@
 		)
 		(uuid "65212b58-9047-4063-88c5-ceffd687bc09")
 	)
-	(label "LEFT"
+	(label "TP1_LEFT"
 		(at 102.87 135.89 0)
 		(effects
 			(font
@@ -16265,7 +16557,7 @@
 		)
 		(uuid "72015ff5-3887-41df-b40a-ab337fd58002")
 	)
-	(label "RIGHT"
+	(label "TP1_RIGHT"
 		(at 102.87 138.43 0)
 		(effects
 			(font
@@ -16335,8 +16627,8 @@
 		)
 		(uuid "74e7278f-91e2-42a3-87a7-9cff956c0687")
 	)
-	(label "LEFT"
-		(at 107.95 45.72 0)
+	(label "TP1_LEFT"
+		(at 104.14 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16765,8 +17057,8 @@
 		)
 		(uuid "b90c87bc-cf35-4b68-acc3-0db760482a6d")
 	)
-	(label "RIGHT"
-		(at 226.06 204.47 0)
+	(label "TP2_RIGHT"
+		(at 223.52 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16805,8 +17097,8 @@
 		)
 		(uuid "bdec8bb3-687a-41fb-bba4-de7e60f26bd0")
 	)
-	(label "MIDDLE"
-		(at 226.06 201.93 0)
+	(label "TP2_MIDDLE"
+		(at 223.52 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16925,8 +17217,8 @@
 		)
 		(uuid "dae1e8de-cbc7-48ba-a124-0182126a4a9a")
 	)
-	(label "MIDDLE"
-		(at 207.01 143.51 0)
+	(label "TP2_MIDDLE"
+		(at 204.47 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16935,7 +17227,7 @@
 		)
 		(uuid "db033e53-cc20-4cb6-89ee-6ce1f160e64f")
 	)
-	(label "MIDDLE"
+	(label "TP1_MIDDLE"
 		(at 102.87 140.97 0)
 		(effects
 			(font
@@ -17195,8 +17487,8 @@
 		)
 		(uuid "fb997c01-684b-4dbf-8c21-c426207e2e6c")
 	)
-	(label "LEFT"
-		(at 207.01 138.43 0)
+	(label "TP2_LEFT"
+		(at 204.47 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17375,6 +17667,25 @@
 				(type none)
 			)
 			(uuid "a4c9cf2e-d5c9-4907-a7be-4372e10b325a")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 127 177.8) (xy 167.64 177.8) (xy 167.64 266.7) (xy 127 266.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "e8e532d6-2b4b-4db8-9391-c8951067d036")
 		)
 	)
 	(symbol
@@ -21113,6 +21424,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 224.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49c113dc-0c05-4afd-be1c-40bd7c2b32dd")
+		(property "Reference" "#PWR081"
+			(at 143.51 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f693c3e6-19ba-4c56-9ec5-f3f6e4f1d603")
+		)
+		(instances
+			(project "ReThink_adapter"
+				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 62.23 229.87 90)
 		(mirror x)
@@ -22083,6 +22472,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 147.32 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "564567be-a256-4644-a0f3-f81b37e11625")
+		(property "Reference" "H5"
+			(at 149.86 229.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 149.86 232.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
+			(at 147.32 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 147.32 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ReThink_adapter"
+				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface:PCA9306")
 		(at 337.82 93.98 0)
 		(unit 1)
@@ -22238,7 +22703,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 135.89 270)
+		(at 204.47 135.89 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -22249,7 +22714,7 @@
 		(dnp no)
 		(uuid "597ba153-3353-4b41-a30d-58e9ea4a1267")
 		(property "Reference" "#PWR058"
-			(at 200.66 135.89 0)
+			(at 198.12 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22260,7 +22725,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.438 135.89 90)
+			(at 199.898 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22270,7 +22735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 135.89 0)
+			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22281,7 +22746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 135.89 0)
+			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22292,7 +22757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 135.89 0)
+			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23937,6 +24402,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 147.32 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "715cbcb2-d400-4f2e-9d87-2a32947e02cc")
+		(property "Reference" "H6"
+			(at 149.86 234.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 149.86 237.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
+			(at 147.32 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 147.32 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ReThink_adapter"
+				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 229.87 0)
 		(unit 1)
@@ -24460,6 +25001,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 146.05 205.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78b11304-a959-4e37-9a57-50b0225f5af3")
+		(property "Reference" "H1"
+			(at 149.86 204.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 149.86 207.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+			(at 146.05 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 146.05 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68c3f8b8-44c5-44d7-86c1-b1367f70c8d6")
+		)
+		(instances
+			(project "ReThink_adapter"
+				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 123.19 0)
 		(mirror y)
@@ -24785,6 +25405,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 146.05 210.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82f9fffa-3c07-458e-aa66-12cb96ef94d2")
+		(property "Reference" "H2"
+			(at 149.86 209.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 149.86 212.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+			(at 146.05 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 146.05 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00243056-d366-42ce-b017-d0e1f01a0043")
+		)
+		(instances
+			(project "ReThink_adapter"
+				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ReThink_symbols:TPS610333DRLR")
 		(at 336.55 231.14 0)
 		(unit 1)
@@ -24932,6 +25631,85 @@
 			(project "ReThink_adapter"
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 146.05 215.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85abd03e-ff5d-4a5b-9a73-c5784fb78413")
+		(property "Reference" "H3"
+			(at 149.86 214.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 149.86 217.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+			(at 146.05 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 146.05 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50dc93a2-8370-48ed-bb8d-9506b43298b3")
+		)
+		(instances
+			(project "ReThink_adapter"
+				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -27029,6 +27807,85 @@
 			(project "ReThink_adapter"
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 146.05 220.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27c1d10-deac-49ba-b34e-aa236f5346f7")
+		(property "Reference" "H4"
+			(at 149.86 219.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 149.86 222.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+			(at 146.05 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 146.05 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cffe1b23-2700-40d5-a4ad-d4d70b271892")
+		)
+		(instances
+			(project "ReThink_adapter"
+				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
+					(reference "H4")
 					(unit 1)
 				)
 			)
