@@ -27,6 +27,7 @@ Adapting older ThinkPad laptop keyboard modules into standalone keyboards using 
    Adapter board connects to Control Board using FFC cables, has a bunch of connectors for different generations of ThinkPad keyboard, boost converters (for pointing stick, backlight) and I2C IO expander (required to keep all keyboard buttons and diodes functional).
 
    - [Schematic (WiP)](circuit/ReThink_adapter.pdf)
+   - [BOM (WiP)](circuit/ReThink_adapter/ReThink_adapter.csv)
 
 ## Battery
 

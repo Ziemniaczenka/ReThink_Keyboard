@@ -11161,7 +11161,7 @@
 		(uuid "0d349995-522b-48e2-988f-174d1174c372")
 	)
 	(junction
-		(at 308.61 78.74)
+		(at 308.61 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12aff87a-1ce3-4511-a356-c1e8c614cf22")
@@ -11209,7 +11209,7 @@
 		(uuid "1e3307fc-b115-437b-9cfc-3f8466c72008")
 	)
 	(junction
-		(at 359.41 78.74)
+		(at 359.41 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ee9dbe9-4687-478e-8053-aa3021197c87")
@@ -11239,7 +11239,7 @@
 		(uuid "25786378-c941-487e-b0d4-ad99aa8f5a4c")
 	)
 	(junction
-		(at 317.5 78.74)
+		(at 317.5 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c1dc0ae-1bd2-4aa9-ac57-c3e9feba0591")
@@ -11251,7 +11251,7 @@
 		(uuid "2c43618c-c3e7-4b54-b229-f5e427336e8b")
 	)
 	(junction
-		(at 359.41 85.09)
+		(at 359.41 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c9837b0-50e3-46fc-ac20-7e5af56ebda4")
@@ -11299,13 +11299,13 @@
 		(uuid "3d5d1520-e744-4208-acb8-db5b95674a74")
 	)
 	(junction
-		(at 353.06 96.52)
+		(at 353.06 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40880b98-cb4d-4fe0-8437-cfbd9ac3292a")
 	)
 	(junction
-		(at 367.03 78.74)
+		(at 367.03 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42168d46-b977-448a-a38a-eb268253ed5c")
@@ -11335,7 +11335,7 @@
 		(uuid "43941a8b-5bae-4590-9e2b-f4c3a3fba46c")
 	)
 	(junction
-		(at 359.41 93.98)
+		(at 359.41 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45196c7a-6fd0-4668-af2a-65b00d1f00e5")
@@ -11383,7 +11383,7 @@
 		(uuid "535d222b-dd88-4d7b-9a46-615836f7f6fb")
 	)
 	(junction
-		(at 323.85 78.74)
+		(at 323.85 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "538e058a-c2f4-4da5-8d16-f09bcea7ab2b")
@@ -11413,7 +11413,7 @@
 		(uuid "669b1caf-1a7b-4ce6-aa75-699f325426cc")
 	)
 	(junction
-		(at 317.5 93.98)
+		(at 317.5 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69db7197-c8e0-4cde-9168-610d3aae9cc1")
@@ -11425,7 +11425,7 @@
 		(uuid "6cb1f2af-5815-45db-871b-827e9d77d18f")
 	)
 	(junction
-		(at 349.25 78.74)
+		(at 349.25 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75fa874e-8a91-4943-96eb-19e8498d7164")
@@ -11563,13 +11563,13 @@
 		(uuid "a77df08b-e685-49a1-966c-cf4090f5d6c0")
 	)
 	(junction
-		(at 349.25 91.44)
+		(at 349.25 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a85a1620-2ea1-4385-8608-84faef383e4e")
 	)
 	(junction
-		(at 323.85 96.52)
+		(at 323.85 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8887f09-d17d-48f8-9d42-d931f0ca2846")
@@ -11605,7 +11605,7 @@
 		(uuid "beecbc1b-f83f-481a-a174-2d4b79220978")
 	)
 	(junction
-		(at 345.44 78.74)
+		(at 345.44 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bffce682-791b-4801-8bef-903e14d3e792")
@@ -11864,7 +11864,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 93.98) (xy 359.41 93.98)
+			(xy 347.98 95.25) (xy 359.41 95.25)
 		)
 		(stroke
 			(width 0)
@@ -11924,7 +11924,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 93.98) (xy 369.57 93.98)
+			(xy 359.41 95.25) (xy 369.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -11974,7 +11974,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 96.52) (xy 327.66 96.52)
+			(xy 323.85 97.79) (xy 327.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -12104,7 +12104,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 78.74) (xy 340.36 81.28)
+			(xy 340.36 80.01) (xy 340.36 82.55)
 		)
 		(stroke
 			(width 0)
@@ -12194,7 +12194,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 91.44) (xy 349.25 99.06)
+			(xy 349.25 92.71) (xy 349.25 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12274,7 +12274,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 78.74) (xy 367.03 78.74)
+			(xy 359.41 80.01) (xy 367.03 80.01)
 		)
 		(stroke
 			(width 0)
@@ -12364,7 +12364,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 78.74) (xy 335.28 81.28)
+			(xy 335.28 80.01) (xy 335.28 82.55)
 		)
 		(stroke
 			(width 0)
@@ -12634,7 +12634,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 85.09) (xy 359.41 85.09)
+			(xy 353.06 86.36) (xy 359.41 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12644,7 +12644,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 96.52) (xy 353.06 96.52)
+			(xy 347.98 97.79) (xy 353.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -12694,7 +12694,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 78.74) (xy 349.25 91.44)
+			(xy 349.25 80.01) (xy 349.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -12874,7 +12874,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 93.98) (xy 317.5 93.98)
+			(xy 306.07 95.25) (xy 317.5 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13104,7 +13104,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 78.74) (xy 323.85 83.82)
+			(xy 323.85 80.01) (xy 323.85 85.09)
 		)
 		(stroke
 			(width 0)
@@ -13224,7 +13224,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 78.74) (xy 317.5 78.74)
+			(xy 308.61 80.01) (xy 317.5 80.01)
 		)
 		(stroke
 			(width 0)
@@ -13434,7 +13434,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 78.74) (xy 359.41 78.74)
+			(xy 356.87 80.01) (xy 359.41 80.01)
 		)
 		(stroke
 			(width 0)
@@ -13744,7 +13744,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 91.44) (xy 317.5 93.98)
+			(xy 317.5 92.71) (xy 317.5 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13854,7 +13854,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 78.74) (xy 335.28 78.74)
+			(xy 323.85 80.01) (xy 335.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -14164,7 +14164,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 92.71) (xy 359.41 93.98)
+			(xy 359.41 93.98) (xy 359.41 95.25)
 		)
 		(stroke
 			(width 0)
@@ -14444,7 +14444,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 96.52) (xy 323.85 96.52)
+			(xy 306.07 97.79) (xy 323.85 97.79)
 		)
 		(stroke
 			(width 0)
@@ -14644,7 +14644,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 78.74) (xy 359.41 85.09)
+			(xy 359.41 80.01) (xy 359.41 86.36)
 		)
 		(stroke
 			(width 0)
@@ -14684,7 +14684,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 93.98) (xy 327.66 93.98)
+			(xy 317.5 95.25) (xy 327.66 95.25)
 		)
 		(stroke
 			(width 0)
@@ -14844,7 +14844,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 78.74) (xy 317.5 83.82)
+			(xy 317.5 80.01) (xy 317.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -14914,7 +14914,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 96.52) (xy 369.57 96.52)
+			(xy 353.06 97.79) (xy 369.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -15024,7 +15024,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 78.74) (xy 323.85 78.74)
+			(xy 317.5 80.01) (xy 323.85 80.01)
 		)
 		(stroke
 			(width 0)
@@ -15124,7 +15124,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 91.44) (xy 349.25 91.44)
+			(xy 347.98 92.71) (xy 349.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -15174,7 +15174,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 78.74) (xy 349.25 78.74)
+			(xy 345.44 80.01) (xy 349.25 80.01)
 		)
 		(stroke
 			(width 0)
@@ -15534,7 +15534,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 91.44) (xy 323.85 96.52)
+			(xy 323.85 92.71) (xy 323.85 97.79)
 		)
 		(stroke
 			(width 0)
@@ -15774,7 +15774,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 92.71) (xy 353.06 96.52)
+			(xy 353.06 93.98) (xy 353.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -15824,7 +15824,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 78.74) (xy 345.44 78.74)
+			(xy 340.36 80.01) (xy 345.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -16263,7 +16263,7 @@
 		(uuid "40b58677-63c6-4356-a07d-ebc455c76259")
 	)
 	(label "FW_CLK"
-		(at 306.07 93.98 0)
+		(at 306.07 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16903,7 +16903,7 @@
 		(uuid "980d2cf6-6d44-4694-9939-5d446d2a850a")
 	)
 	(label "FW_DAT"
-		(at 306.07 96.52 0)
+		(at 306.07 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17063,7 +17063,7 @@
 		(uuid "ae2083b6-9b52-48be-b134-2985d9ef1aa5")
 	)
 	(label "LS_CLK"
-		(at 369.57 93.98 180)
+		(at 369.57 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17383,7 +17383,7 @@
 		(uuid "e1ac8ea6-d68f-4ef3-ad7b-7568be1227fd")
 	)
 	(label "LS_DAT"
-		(at 369.57 96.52 180)
+		(at 369.57 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17619,7 +17619,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 304.8 71.12) (xy 373.38 71.12) (xy 373.38 111.76) (xy 304.8 111.76)
+				(xy 304.8 71.12) (xy 373.38 71.12) (xy 373.38 113.03) (xy 304.8 113.03)
 			)
 			(stroke
 				(width 0)
@@ -18004,7 +18004,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 359.41 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -18048,7 +18048,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188R61E106MA73J"
+			(at 359.41 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM188R61E106MA73J?qs=hNud%2FORuBR2%252B%252BY67hhW1nA%3D%3D"
+			(at 359.41 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 359.41 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 359.41 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 359.41 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -18218,7 +18262,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07220RP"
+			(at 68.58 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07220RP?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNzw2W%252B5vV9IfOunlDff%252BV6g%3D%3D"
+			(at 68.58 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 68.58 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 68.58 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 68.58 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -18464,6 +18552,61 @@
 				)
 			)
 		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Hirose-Connector/FH34SRJ-6S-0.5SH50?qs=vnk2wBG9e15jF3vv7p0sbw%3D%3D"
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH34SRJ-6S-0.5SH(50)"
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "9dfc8372-5882-48fa-ae5e-c2d176efeba9")
 		)
@@ -18496,7 +18639,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 353.06 88.9 0)
+		(at 353.06 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18506,7 +18649,7 @@
 		(dnp no)
 		(uuid "0cf278d2-988e-4399-98a7-2af0aa8d8c81")
 		(property "Reference" "R8"
-			(at 354.076 87.63 0)
+			(at 354.076 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18517,7 +18660,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 354.076 90.17 0)
+			(at 354.076 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18528,7 +18671,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 351.282 88.9 90)
+			(at 351.282 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18539,7 +18682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 88.9 0)
+			(at 353.06 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18550,7 +18693,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 353.06 88.9 0)
+			(at 353.06 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18560,8 +18703,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 353.06 88.9 0)
+		(property "MPN" "RC0402FR-074K7P"
+			(at 353.06 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-074K7P?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREcGqGGCiJ%252BDl0Vd%2FjVF7Tmg%3D%3D"
+			(at 353.06 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 353.06 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 353.06 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 353.06 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18798,6 +18985,50 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 365.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" ""
+			(at 365.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 365.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 365.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 365.76 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19145,7 +19376,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 201.93 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM155R71H104KE14D?qs=2UZY3JfgLCy9gG9icKV9Yg%3D%3D"
+			(at 201.93 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 201.93 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 201.93 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 201.93 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -19173,7 +19448,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 308.61 86.36 0)
+		(at 308.61 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19184,7 +19459,7 @@
 		(dnp no)
 		(uuid "16725fe3-8b37-4d02-a134-931428586ad0")
 		(property "Reference" "#PWR021"
-			(at 308.61 92.71 0)
+			(at 308.61 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19195,7 +19470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 90.17 0)
+			(at 308.61 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19205,7 +19480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 86.36 0)
+			(at 308.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19216,7 +19491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 86.36 0)
+			(at 308.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19227,7 +19502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 86.36 0)
+			(at 308.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19447,6 +19722,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 314.96 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 314.96 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 314.96 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 314.96 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46d519e1-a808-43c7-b0cc-e2813b9ec357")
 		)
@@ -19650,7 +19969,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PCAL6416AHF,128"
+			(at 339.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/NXP-Semiconductors/PCAL6416AHF128?qs=Slg7U9gp9IPc62MTs1NATQ%3D%3D"
+			(at 339.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 339.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 339.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 339.09 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -19811,7 +20174,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07330RL"
+			(at 68.58 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07330RL?qs=V1yeUXFNrkngRWHRQxns%2Fg%3D%3D"
+			(at 68.58 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Exemption"
+			(at 68.58 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 68.58 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 68.58 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -19903,7 +20310,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07100RP"
+			(at 215.9 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07100RP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREdHGUa6t%252BNH7oieKNBZcnxg%3D%3D"
+			(at 215.9 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 215.9 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 215.9 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 215.9 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -20228,7 +20679,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0710KP"
+			(at 317.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-0710KP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREKOYRSuYZ7f8jdvCZEQt%2FIA%3D%3D"
+			(at 317.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 317.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 317.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 317.5 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20364,6 +20859,50 @@
 			)
 		)
 		(property "MPN" ""
+			(at 320.04 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" ""
+			(at 320.04 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 320.04 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 320.04 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 320.04 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -20765,6 +21304,61 @@
 				)
 			)
 		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Omron-Electronics/XF3M1-1415-1B?qs=0q6jlcGHEi2cMtnOEJgNDA%3D%3D"
+			(at 252.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XF3M(1)-1415-1B"
+			(at 252.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 252.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 252.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 252.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "c17b0269-b831-451f-897f-db8e758ef1f6")
 		)
@@ -21141,7 +21735,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM155R71H104KE14D?qs=2UZY3JfgLCy9gG9icKV9Yg%3D%3D"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 210.82 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -21446,6 +22084,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 246.38 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 246.38 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 246.38 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 246.38 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4bf9d3e-8b01-4296-bd2a-6c853c28ac51")
 		)
@@ -21577,6 +22259,50 @@
 			)
 		)
 		(property "MPN" ""
+			(at 64.77 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" ""
+			(at 64.77 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 64.77 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 64.77 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 64.77 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -21749,6 +22475,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 361.95 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 361.95 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 361.95 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 361.95 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a6ca1083-0668-4f38-8a61-e15ac3d58279")
 		)
@@ -21852,7 +22622,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C221J2GACTU"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/KEMET/C0402C221J2GACTU?qs=WyjlAZoYn52wza2weOA0ZQ%3D%3D"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 63.5 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21958,7 +22772,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 349.25 102.87 0)
+		(at 349.25 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21968,7 +22782,7 @@
 		(dnp no)
 		(uuid "479bac62-32d4-41df-90dd-1c1f5e9c82e2")
 		(property "Reference" "C8"
-			(at 350.52 100.838 0)
+			(at 350.52 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21979,7 +22793,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 350.012 105.156 0)
+			(at 350.012 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21990,7 +22804,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 350.2152 106.68 0)
+			(at 350.2152 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22001,7 +22815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 102.87 0)
+			(at 349.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22012,7 +22826,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 349.25 102.87 0)
+			(at 349.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22023,7 +22837,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 349.25 102.87 0)
+			(at 349.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22034,7 +22848,7 @@
 			)
 		)
 		(property "Voltage" "25"
-			(at 349.25 102.87 0)
+			(at 349.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22044,8 +22858,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 349.25 102.87 0)
+		(property "MPN" "GRM1555C2A101GA01D"
+			(at 349.25 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM1555C2A101GA01D?qs=hNud%2FORuBR2mSE1RPo5yOg%3D%3D"
+			(at 349.25 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 349.25 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 349.25 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 349.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22232,7 +23090,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -22292,7 +23150,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 39.37 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -22303,7 +23161,62 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM219R61C226ME15K"
+			(at 39.37 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM219R61C226ME15K?qs=F5EMLAvA7IDHNVqFg3MF1Q%3D%3D"
+			(at 39.37 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 39.37 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16"
+			(at 39.37 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 39.37 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 39.37 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -22473,7 +23386,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 363.22 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -22517,7 +23430,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188R61E106MA73J"
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM188R61E106MA73J?qs=hNud%2FORuBR2%252B%252BY67hhW1nA%3D%3D"
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 363.22 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -22732,7 +23689,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AA01B-S040VA1"
+			(at 85.09 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.questcomp.com/part/4/aa01b-s040va1-r3000/434153986"
+			(at 85.09 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "UNKNOWN"
+			(at 85.09 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" "0543630489"
+			(at 85.09 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/molex/0543630489/3044861"
 			(at 85.09 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -23185,6 +24186,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 157.48 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 157.48 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 157.48 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 157.48 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ReThink_adapter"
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
@@ -23196,7 +24241,7 @@
 	)
 	(symbol
 		(lib_id "Interface:PCA9306")
-		(at 337.82 93.98 0)
+		(at 337.82 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23206,7 +24251,7 @@
 		(dnp no)
 		(uuid "56af5c97-5528-4598-984a-ef18292f9b4b")
 		(property "Reference" "U3"
-			(at 340.614 80.264 0)
+			(at 340.614 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23217,7 +24262,7 @@
 			)
 		)
 		(property "Value" "PCA9306"
-			(at 340.614 82.804 0)
+			(at 340.614 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23228,7 +24273,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
-			(at 327.66 85.09 0)
+			(at 327.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23239,7 +24284,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/pca9306.pdf"
-			(at 330.2 82.55 0)
+			(at 330.2 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23250,7 +24295,7 @@
 			)
 		)
 		(property "Description" "Dual bidirectional I2C Bus and SMBus voltage level translator"
-			(at 337.82 93.98 0)
+			(at 337.82 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23261,7 +24306,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 337.82 93.98 0)
+			(at 337.82 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23272,7 +24317,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 337.82 93.98 0)
+			(at 337.82 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23283,7 +24328,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 337.82 93.98 0)
+			(at 337.82 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23294,7 +24339,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 337.82 93.98 0)
+			(at 337.82 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23304,8 +24349,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 337.82 93.98 0)
+		(property "MPN" "PCA9306DCUR"
+			(at 337.82 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Texas-Instruments/PCA9306DCUR?qs=wgAEGBTxy7nQr5PRxNBUNA%3D%3D"
+			(at 337.82 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 337.82 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 337.82 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 337.82 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23570,7 +24659,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-072K2P"
+			(at 351.79 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-072K2P?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREH6rJTmYAlitlOFQFFWq%2F4w%3D%3D"
+			(at 351.79 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 351.79 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 351.79 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 351.79 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -23817,7 +24950,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-073K9L"
+			(at 66.04 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-073K9L?qs=YUgVZYePFqAZ%2F08ApUOsXg%3D%3D"
+			(at 66.04 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Exemption"
+			(at 66.04 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 66.04 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 66.04 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -23909,7 +25086,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 316.23 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -23953,7 +25130,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188R61E106MA73J"
+			(at 316.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM188R61E106MA73J?qs=hNud%2FORuBR2%252B%252BY67hhW1nA%3D%3D"
+			(at 316.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 316.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 316.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 316.23 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -24647,6 +25868,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 86.36 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 86.36 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 86.36 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 86.36 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dabdb5ca-eedc-4404-ad5a-9a6b35e0de8c")
 		)
@@ -24667,7 +25932,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 367.03 82.55 0)
+		(at 367.03 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24677,7 +25942,7 @@
 		(dnp no)
 		(uuid "6959f34f-9013-4144-9716-f79f2abc4bc8")
 		(property "Reference" "C7"
-			(at 368.3 80.518 0)
+			(at 368.3 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24688,7 +25953,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 367.792 84.836 0)
+			(at 367.792 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24699,7 +25964,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 367.9952 86.36 0)
+			(at 367.9952 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24710,7 +25975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 82.55 0)
+			(at 367.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24721,7 +25986,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 367.03 82.55 0)
+			(at 367.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24732,7 +25997,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 367.03 82.55 0)
+			(at 367.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24743,7 +26008,7 @@
 			)
 		)
 		(property "Voltage" "16"
-			(at 367.03 82.55 0)
+			(at 367.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24753,8 +26018,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 367.03 82.55 0)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 367.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM155R71H104KE14D?qs=2UZY3JfgLCy9gG9icKV9Yg%3D%3D"
+			(at 367.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 367.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 367.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 367.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24858,7 +26167,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 345.44 78.74 0)
+		(at 345.44 80.01 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24869,7 +26178,7 @@
 		(dnp no)
 		(uuid "6c28c21f-4121-4956-9355-e471580768c7")
 		(property "Reference" "#FLG08"
-			(at 345.44 76.835 0)
+			(at 345.44 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24880,7 +26189,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 342.138 75.184 0)
+			(at 342.138 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24890,7 +26199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 78.74 0)
+			(at 345.44 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24901,7 +26210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 78.74 0)
+			(at 345.44 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24912,7 +26221,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 345.44 78.74 0)
+			(at 345.44 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25022,7 +26331,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B103KB5NNNC"
+			(at 109.22 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Samsung-Electro-Mechanics/CL05B103KB5NNNC?qs=349EhDEZ59pcaIbMQHo3bQ%3D%3D"
+			(at 109.22 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 109.22 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 109.22 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 109.22 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25105,6 +26458,50 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 157.48 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" ""
+			(at 157.48 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 157.48 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 157.48 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 157.48 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25203,7 +26600,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 353.06 78.74 270)
+		(at 353.06 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25213,7 +26610,7 @@
 		(dnp no)
 		(uuid "730891d7-78b9-4c7a-8b36-0c734d6f69a1")
 		(property "Reference" "R5"
-			(at 350.774 74.168 90)
+			(at 350.774 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25224,7 +26621,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 350.774 76.708 90)
+			(at 350.774 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25235,7 +26632,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 353.06 76.962 90)
+			(at 353.06 78.232 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25246,7 +26643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 78.74 0)
+			(at 353.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25257,7 +26654,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 353.06 78.74 0)
+			(at 353.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25267,8 +26664,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 353.06 78.74 90)
+		(property "MPN" "RC0402FR-07200KP"
+			(at 353.06 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07200KP?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sN9bbSO1wU1sP%2F5NCOBuCxvQ%3D%3D"
+			(at 353.06 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 353.06 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 353.06 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 353.06 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25295,7 +26736,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 359.41 88.9 0)
+		(at 359.41 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25305,7 +26746,7 @@
 		(dnp no)
 		(uuid "73bf1129-390e-49db-92c1-0a4571933bf4")
 		(property "Reference" "R9"
-			(at 360.426 87.63 0)
+			(at 360.426 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25316,7 +26757,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 360.426 90.17 0)
+			(at 360.426 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25327,7 +26768,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 357.632 88.9 90)
+			(at 357.632 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25338,7 +26779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 88.9 0)
+			(at 359.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25349,7 +26790,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 359.41 88.9 0)
+			(at 359.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25359,8 +26800,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 359.41 88.9 0)
+		(property "MPN" "RC0402FR-074K7P"
+			(at 359.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-074K7P?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREcGqGGCiJ%252BDl0Vd%2FjVF7Tmg%3D%3D"
+			(at 359.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 359.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 359.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 359.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25451,7 +26936,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0710KP"
+			(at 229.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-0710KP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREKOYRSuYZ7f8jdvCZEQt%2FIA%3D%3D"
+			(at 229.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 229.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 229.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 229.87 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -25621,7 +27150,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07560RL"
+			(at 68.58 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07560RL?qs=Is6ZsIPfHkaar5c8drXNXg%3D%3D"
+			(at 68.58 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Exemption"
+			(at 68.58 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 68.58 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 68.58 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -25705,6 +27278,50 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 156.21 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" ""
+			(at 156.21 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 156.21 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 156.21 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 156.21 205.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25948,7 +27565,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0710KP"
+			(at 317.5 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-0710KP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREKOYRSuYZ7f8jdvCZEQt%2FIA%3D%3D"
+			(at 317.5 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 317.5 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 317.5 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 317.5 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -26118,6 +27779,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 156.21 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 156.21 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 156.21 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 156.21 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00243056-d366-42ce-b017-d0e1f01a0043")
 		)
@@ -26239,7 +27944,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TPS610333DRLR"
+			(at 336.55 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Texas-Instruments/TPS610333DRLR?qs=HoCaDK9Nz5dzV%252Bptf%2FLKkg%3D%3D"
+			(at 336.55 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 336.55 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 336.55 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 336.55 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -26349,6 +28098,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d7a6d8f2-e709-4451-b64c-d484bf92cb03")
 		)
@@ -26431,6 +28224,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 156.21 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 156.21 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 156.21 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 156.21 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50dc93a2-8370-48ed-bb8d-9506b43298b3")
 		)
@@ -26499,6 +28336,61 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 233.68 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Hirose-Connector/FH52-40S-0.5SH?qs=x%2FqqGkZFGGusKc6kcNGZEQ%3D%3D"
+			(at 233.68 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH52-40S-0.5SH"
+			(at 233.68 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 233.68 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 233.68 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 233.68 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -26802,7 +28694,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -26862,7 +28754,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 217.17 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -26873,7 +28765,62 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM219R61C226ME15K"
+			(at 217.17 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM219R61C226ME15K?qs=F5EMLAvA7IDHNVqFg3MF1Q%3D%3D"
+			(at 217.17 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 217.17 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16"
+			(at 217.17 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 217.17 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 217.17 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -27164,7 +29111,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MLAST168SB7105KTNA01"
+			(at 356.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/TAIYO-YUDEN/MLAST168SB7105KTNA01?qs=tlsG%2FOw5FFhx%252B2apRN1HpA%3D%3D"
+			(at 356.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 356.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 356.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 356.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -27247,6 +29238,61 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Omron-Electronics/XF3M1-0815-1B?qs=q%2FTJjBi8OU92LX9jQs7B8Q%3D%3D"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XF3M(1)-0815-1B"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 120.65 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -27359,7 +29405,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07100KP"
+			(at 229.87 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07100KP?qs=qpJ%252B%252B%252Bdg6p0q%252ByEBEtQROQ%3D%3D"
+			(at 229.87 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 229.87 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 229.87 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 229.87 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -27451,7 +29541,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -27495,7 +29585,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188R61E106MA73J"
+			(at 311.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM188R61E106MA73J?qs=hNud%2FORuBR2%252B%252BY67hhW1nA%3D%3D"
+			(at 311.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 311.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 311.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -27634,6 +29768,50 @@
 			)
 		)
 		(property "MPN" ""
+			(at 224.79 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" ""
+			(at 224.79 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 224.79 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 224.79 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 224.79 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -27805,7 +29983,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-073K9L"
+			(at 99.06 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-073K9L?qs=YUgVZYePFqAZ%2F08ApUOsXg%3D%3D"
+			(at 99.06 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Exemption"
+			(at 99.06 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 99.06 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 99.06 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -27833,7 +30055,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 308.61 82.55 0)
+		(at 308.61 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27843,7 +30065,7 @@
 		(dnp no)
 		(uuid "97482a5e-82c6-4fd7-ac5a-ab3ad9f194d2")
 		(property "Reference" "C6"
-			(at 309.88 80.518 0)
+			(at 309.88 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27854,7 +30076,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 309.372 84.836 0)
+			(at 309.372 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27865,7 +30087,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 309.5752 86.36 0)
+			(at 309.5752 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27876,7 +30098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 82.55 0)
+			(at 308.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27887,7 +30109,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 308.61 82.55 0)
+			(at 308.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27898,7 +30120,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 308.61 82.55 0)
+			(at 308.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27909,7 +30131,7 @@
 			)
 		)
 		(property "Voltage" "16"
-			(at 308.61 82.55 0)
+			(at 308.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27919,8 +30141,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 308.61 82.55 0)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 308.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM155R71H104KE14D?qs=2UZY3JfgLCy9gG9icKV9Yg%3D%3D"
+			(at 308.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 308.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 308.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 308.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28033,7 +30299,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 345.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM155R71H104KE14D?qs=2UZY3JfgLCy9gG9icKV9Yg%3D%3D"
+			(at 345.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 345.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 345.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 345.44 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -28061,7 +30371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 367.03 86.36 0)
+		(at 367.03 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -28072,7 +30382,7 @@
 		(dnp no)
 		(uuid "99d06f91-ef04-41b1-93d5-97c6519db6e9")
 		(property "Reference" "#PWR020"
-			(at 367.03 92.71 0)
+			(at 367.03 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28083,7 +30393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 369.824 88.9 0)
+			(at 369.824 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28093,7 +30403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 367.03 86.36 0)
+			(at 367.03 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28104,7 +30414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 86.36 0)
+			(at 367.03 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28115,7 +30425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 367.03 86.36 0)
+			(at 367.03 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28281,7 +30591,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0710KP"
+			(at 323.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-0710KP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREKOYRSuYZ7f8jdvCZEQt%2FIA%3D%3D"
+			(at 323.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 323.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 323.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 323.85 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -28607,6 +30961,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 156.21 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 156.21 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 156.21 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 156.21 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cffe1b23-2700-40d5-a4ad-d4d70b271892")
 		)
@@ -28685,7 +31083,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0710KP"
+			(at 311.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-0710KP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREKOYRSuYZ7f8jdvCZEQt%2FIA%3D%3D"
+			(at 311.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 311.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 311.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 311.15 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -28777,7 +31219,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 365.76 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -28821,7 +31263,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188R61E106MA73J"
+			(at 365.76 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM188R61E106MA73J?qs=hNud%2FORuBR2%252B%252BY67hhW1nA%3D%3D"
+			(at 365.76 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 365.76 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 365.76 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 365.76 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -28957,6 +31443,50 @@
 			)
 		)
 		(property "MPN" ""
+			(at 31.75 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" ""
+			(at 31.75 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 31.75 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 31.75 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 31.75 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -29105,6 +31635,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 203.2 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 203.2 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 203.2 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 203.2 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7aae130e-03ee-4a61-aacb-04531846df16")
 		)
@@ -29125,7 +31699,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 308.61 78.74 0)
+		(at 308.61 80.01 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29136,7 +31710,7 @@
 		(dnp no)
 		(uuid "a9c3a8cc-a164-48b0-99a0-e050bb59c322")
 		(property "Reference" "#PWR019"
-			(at 308.61 82.55 0)
+			(at 308.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29147,7 +31721,7 @@
 			)
 		)
 		(property "Value" "TP_3V3"
-			(at 312.674 76.2 0)
+			(at 312.674 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29157,7 +31731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 78.74 0)
+			(at 308.61 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29168,7 +31742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 78.74 0)
+			(at 308.61 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29179,7 +31753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 308.61 78.74 0)
+			(at 308.61 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29289,7 +31863,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 204.47 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM155R71H104KE14D?qs=2UZY3JfgLCy9gG9icKV9Yg%3D%3D"
+			(at 204.47 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 204.47 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 204.47 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 204.47 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -29381,7 +31999,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07100RP"
+			(at 215.9 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07100RP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREdHGUa6t%252BNH7oieKNBZcnxg%3D%3D"
+			(at 215.9 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 215.9 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 215.9 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 215.9 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -29487,7 +32149,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 323.85 87.63 0)
+		(at 323.85 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29497,7 +32159,7 @@
 		(dnp no)
 		(uuid "ae5416ca-6e95-4743-a338-d8779f8a6d1e")
 		(property "Reference" "R7"
-			(at 324.866 86.36 0)
+			(at 324.866 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29508,7 +32170,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 324.866 88.9 0)
+			(at 324.866 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29519,7 +32181,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 322.072 87.63 90)
+			(at 322.072 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29530,7 +32192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 87.63 0)
+			(at 323.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29541,7 +32203,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 323.85 87.63 0)
+			(at 323.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29551,8 +32213,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 323.85 87.63 0)
+		(property "MPN" "RC0402FR-074K7P"
+			(at 323.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-074K7P?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREcGqGGCiJ%252BDl0Vd%2FjVF7Tmg%3D%3D"
+			(at 323.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 323.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 323.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 323.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29660,7 +32366,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -29720,7 +32426,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 31.75 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -29731,7 +32437,62 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM219R61C226ME15K"
+			(at 31.75 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM219R61C226ME15K?qs=F5EMLAvA7IDHNVqFg3MF1Q%3D%3D"
+			(at 31.75 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 31.75 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16"
+			(at 31.75 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 31.75 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 31.75 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -29823,7 +32584,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07100RP"
+			(at 215.9 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07100RP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREdHGUa6t%252BNH7oieKNBZcnxg%3D%3D"
+			(at 215.9 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 215.9 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 215.9 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 215.9 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -30072,6 +32877,61 @@
 				)
 			)
 		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Hirose-Connector/FH34SRJ-40S-0.5SH50?qs=iyLo5FA4poDa6AcLdJDWMw%3D%3D"
+			(at 254 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH34SRJ-40S-0.5SH(50)"
+			(at 254 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 254 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 254 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 254 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "26"
 			(uuid "926b409c-a933-43b9-9bfb-1bbfde48f0f3")
 		)
@@ -30288,7 +33148,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -30348,7 +33208,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 224.79 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -30359,7 +33219,62 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM219R61C226ME15K"
+			(at 224.79 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM219R61C226ME15K?qs=F5EMLAvA7IDHNVqFg3MF1Q%3D%3D"
+			(at 224.79 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 224.79 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16"
+			(at 224.79 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 224.79 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 224.79 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -30838,6 +33753,61 @@
 				)
 			)
 		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Hirose-Connector/FH34SRJ-34S-0.5SH50?qs=iyLo5FA4poAumYnqXazWvw%3D%3D"
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH34SRJ-34S-0.5SH(50)"
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d3ddb503-a765-4cb9-9e97-64740532614a")
 		)
@@ -30954,7 +33924,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 367.03 78.74 0)
+		(at 367.03 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30964,7 +33934,7 @@
 		(dnp no)
 		(uuid "befd6d8b-f800-4d2a-8050-b418e26d1d8e")
 		(property "Reference" "#PWR018"
-			(at 367.03 82.55 0)
+			(at 367.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30975,7 +33945,7 @@
 			)
 		)
 		(property "Value" "TP_5V"
-			(at 367.03 75.184 0)
+			(at 367.03 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30985,7 +33955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 367.03 78.74 0)
+			(at 367.03 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30996,7 +33966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 78.74 0)
+			(at 367.03 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31007,7 +33977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 367.03 78.74 0)
+			(at 367.03 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31095,7 +34065,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07100RP"
+			(at 215.9 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07100RP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREdHGUa6t%252BNH7oieKNBZcnxg%3D%3D"
+			(at 215.9 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 215.9 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 215.9 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 215.9 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -31365,7 +34379,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 331.47 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM155R71H104KE14D?qs=2UZY3JfgLCy9gG9icKV9Yg%3D%3D"
+			(at 331.47 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 331.47 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 331.47 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 331.47 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -31393,7 +34451,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 337.82 106.68 0)
+		(at 337.82 107.95 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -31404,7 +34462,7 @@
 		(dnp no)
 		(uuid "c43ca1cd-6c51-4c4d-9581-261b4c42726e")
 		(property "Reference" "#PWR022"
-			(at 337.82 113.03 0)
+			(at 337.82 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31415,7 +34473,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 337.82 110.49 0)
+			(at 337.82 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31425,7 +34483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 106.68 0)
+			(at 337.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31436,7 +34494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 106.68 0)
+			(at 337.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31447,7 +34505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 337.82 106.68 0)
+			(at 337.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31690,7 +34748,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07100RP"
+			(at 215.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-07100RP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREdHGUa6t%252BNH7oieKNBZcnxg%3D%3D"
+			(at 215.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 215.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 215.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 215.9 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -31995,6 +35097,50 @@
 				)
 			)
 		)
+		(property "Distributor link" ""
+			(at 41.91 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 41.91 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 41.91 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 41.91 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8dfd76ab-84ba-40fa-a583-ac34f7e94da2")
 		)
@@ -32019,7 +35165,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -32089,6 +35235,50 @@
 				)
 			)
 		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Vishay-Dale/IHHP0806ZHER1R0M01?qs=tlsG%2FOw5FFg%2FJRP1dsWtCQ%3D%3D"
+			(at 336.55 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 336.55 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 336.55 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 336.55 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a52bcb1a-b2aa-4553-a978-41caad5b8dad")
 		)
@@ -32106,7 +35296,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 317.5 87.63 0)
+		(at 317.5 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32116,7 +35306,7 @@
 		(dnp no)
 		(uuid "d2a750eb-047c-45c5-938c-47f3610090a6")
 		(property "Reference" "R6"
-			(at 318.516 86.36 0)
+			(at 318.516 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32127,7 +35317,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 318.516 88.9 0)
+			(at 318.516 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32138,7 +35328,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 315.722 87.63 90)
+			(at 315.722 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32149,7 +35339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 87.63 0)
+			(at 317.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32160,7 +35350,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 317.5 87.63 0)
+			(at 317.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32170,8 +35360,52 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 317.5 87.63 0)
+		(property "MPN" "RC0402FR-074K7P"
+			(at 317.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-074K7P?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREcGqGGCiJ%252BDl0Vd%2FjVF7Tmg%3D%3D"
+			(at 317.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 317.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 317.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
+			(at 317.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32340,7 +35574,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0710KP"
+			(at 231.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-0710KP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREKOYRSuYZ7f8jdvCZEQt%2FIA%3D%3D"
+			(at 231.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 231.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 231.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 231.14 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -32532,7 +35810,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C221J2GACTU"
+			(at 113.03 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/KEMET/C0402C221J2GACTU?qs=WyjlAZoYn52wza2weOA0ZQ%3D%3D"
+			(at 113.03 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 113.03 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 113.03 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 113.03 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -32746,7 +36068,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LM2775DSGT"
+			(at 340.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Texas-Instruments/LM2775DSGT?qs=GURawfaeGuC8OeiXDzqVsg%3D%3D"
+			(at 340.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 340.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 340.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 340.36 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -32795,7 +36161,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 349.25 106.68 0)
+		(at 349.25 107.95 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -32806,7 +36172,7 @@
 		(dnp no)
 		(uuid "df2d2baf-f6a9-4c4f-be54-c413b0cffc50")
 		(property "Reference" "#PWR023"
-			(at 349.25 113.03 0)
+			(at 349.25 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32817,7 +36183,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 349.25 110.49 0)
+			(at 349.25 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32827,7 +36193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 106.68 0)
+			(at 349.25 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32838,7 +36204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 106.68 0)
+			(at 349.25 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32849,7 +36215,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 106.68 0)
+			(at 349.25 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33249,7 +36615,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0710KP"
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/YAGEO/RC0402FR-0710KP?qs=sGAEpiMZZMvdGkrng054t13tJqN5M%252BREKOYRSuYZ7f8jdvCZEQt%2FIA%3D%3D"
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 106.68 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -33363,7 +36773,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Murata-Electronics/GRM155R71H104KE14D?qs=2UZY3JfgLCy9gG9icKV9Yg%3D%3D"
+			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 96.52 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -33711,7 +37165,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C221J2GACTU"
+			(at 238.76 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/KEMET/C0402C221J2GACTU?qs=WyjlAZoYn52wza2weOA0ZQ%3D%3D"
+			(at 238.76 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 238.76 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 238.76 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 238.76 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -33871,6 +37369,61 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor link" "https://www.mouser.pl/en/ProductDetail/Omron-Electronics/XF3M1-3015-1B?qs=1He0yLMpldDsC1Cgk53qLQ%3D%3D"
+			(at 120.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XF3M(1)-3015-1B"
+			(at 120.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 120.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_MPN" ""
+			(at 120.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt_link" ""
 			(at 120.65 71.12 0)
 			(hide yes)
 			(show_name no)
