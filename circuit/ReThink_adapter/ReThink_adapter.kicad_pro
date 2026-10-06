@@ -640,7 +640,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ReThink_adapter.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -709,18 +709,6 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Distributor link",
-          "name": "Distributor link",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "RoHS",
-          "name": "RoHS",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -730,6 +718,42 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Alt_MPN",
+          "name": "Alt_MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "RoHS",
+          "name": "RoHS",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser_PN",
+          "name": "Mouser_PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_PN",
+          "name": "DigiKey_PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Distributor link",
+          "name": "Distributor link",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Alt_link",
+          "name": "Alt_link",
           "show": true
         },
         {

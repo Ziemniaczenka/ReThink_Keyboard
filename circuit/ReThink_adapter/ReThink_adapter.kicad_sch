@@ -18092,7 +18092,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527"
+			(at 359.41 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1869-1-ND"
+			(at 359.41 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM188R61E106MA3J"
 			(at 359.41 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -18306,7 +18328,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07220RP/17015787"
+			(at 68.58 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "13-RC0402FR-07220RPCT-ND "
+			(at 68.58 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07220RP"
 			(at 68.58 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -18596,7 +18640,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH34SRJ-6S-0-5SH-50/4283771"
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "H125773CT-ND"
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "798-FH34SRJ6S05SH50"
 			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -18747,7 +18813,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-074K7P/4935287"
+			(at 353.06 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1272CT-ND "
+			(at 353.06 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-074K7P"
 			(at 353.06 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18938,7 +19026,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "11202462-d4bc-4786-b9ce-dc3e3710d4a9")
 		(property "Reference" "J9"
 			(at 367.538 157.48 0)
@@ -19029,6 +19117,28 @@
 			)
 		)
 		(property "Alt_link" ""
+			(at 365.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" ""
+			(at 365.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 365.76 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19420,7 +19530,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
+			(at 201.93 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-10700-1-ND"
+			(at 201.93 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM155R71H104KE4D"
 			(at 201.93 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -19766,6 +19898,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 314.96 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 314.96 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46d519e1-a808-43c7-b0cc-e2813b9ec357")
 		)
@@ -20013,7 +20167,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/nxp-usa-inc/PCAL6416AHF-128/3598043"
+			(at 339.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "568-9946-1-ND"
+			(at 339.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "771-PCAL6416AHF,128"
 			(at 339.09 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -20218,7 +20394,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07330RL/726594"
+			(at 68.58 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-330LRCT-ND "
+			(at 68.58 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07330RL"
 			(at 68.58 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -20354,7 +20552,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07100RP/4935263"
+			(at 215.9 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1248CT-ND"
+			(at 215.9 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07100RP"
 			(at 215.9 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -20723,7 +20943,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-0710KP/4935264"
+			(at 317.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1249CT-ND"
+			(at 317.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-0710KP"
 			(at 317.5 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20903,6 +21145,28 @@
 			)
 		)
 		(property "Alt_link" ""
+			(at 320.04 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" ""
+			(at 320.04 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 320.04 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -21348,7 +21612,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/aratas-formerly-omron-components/XF3M-1-1415-1B/6072100"
+			(at 252.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "Z5875CT-ND"
+			(at 252.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "653-XF3M114151B"
 			(at 252.73 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21779,7 +22065,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-10700-1-ND"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM155R71H104KE4D"
 			(at 210.82 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -22128,6 +22436,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 246.38 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 246.38 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4bf9d3e-8b01-4296-bd2a-6c853c28ac51")
 		)
@@ -22313,6 +22643,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 64.77 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 64.77 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ee7e47b-6948-48b7-9b4e-84b012068bcf")
 		)
@@ -22418,7 +22770,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "45049ea6-34b8-4502-8fa7-60fac49b788d")
 		(property "Reference" "J10"
 			(at 360.68 204.978 0)
@@ -22509,6 +22861,28 @@
 			)
 		)
 		(property "Alt_link" ""
+			(at 361.95 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" ""
+			(at 361.95 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 361.95 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -22666,7 +23040,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/kemet/C0402C221J2GACTU/18195347"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "399-C0402C221J2GACTUCT-ND"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "80-C0402C221J2GACTU"
 			(at 63.5 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -22902,7 +23298,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM1555C2A101GA01D/17843758"
+			(at 349.25 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-GRM1555C2A101GA01DCT-ND"
+			(at 349.25 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM1555C2A101GA1D"
 			(at 349.25 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -23216,7 +23634,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM219R61C226ME15K/11618740"
+			(at 39.37 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-GRM219R61C226ME15KCT-ND"
+			(at 39.37 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM219R61C226ME1K"
 			(at 39.37 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -23474,7 +23914,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527"
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1869-1-ND"
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM188R61E106MA3J"
 			(at 363.22 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -23734,6 +24196,28 @@
 			)
 		)
 		(property "Alt_link" "https://www.digikey.pl/en/products/detail/molex/0543630489/3044861"
+			(at 85.09 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "WM6787CT-ND "
+			(at 85.09 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 85.09 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -24230,6 +24714,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 157.48 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 157.48 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ReThink_adapter"
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
@@ -24393,7 +24899,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/texas-instruments/PCA9306DCUR/768359"
+			(at 337.82 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "296-17988-1-ND"
+			(at 337.82 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "595-PCA9306DCUR"
 			(at 337.82 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24703,7 +25231,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-072K2P/4935275"
+			(at 351.79 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1260CT-ND "
+			(at 351.79 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-072K2P"
 			(at 351.79 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -24994,7 +25544,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-073K9L/726584"
+			(at 66.04 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-3.90KLRCT-ND "
+			(at 66.04 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-073K9L"
 			(at 66.04 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -25174,7 +25746,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527"
+			(at 316.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1869-1-ND"
+			(at 316.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM188R61E106MA3J"
 			(at 316.23 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -25912,6 +26506,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 86.36 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 86.36 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dabdb5ca-eedc-4404-ad5a-9a6b35e0de8c")
 		)
@@ -26062,7 +26678,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
+			(at 367.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-10700-1-ND"
+			(at 367.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM155R71H104KE4D"
 			(at 367.03 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -26375,7 +27013,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686"
+			(at 109.22 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1028-1-ND "
+			(at 109.22 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "187-CL05B103KB5NNNC"
 			(at 109.22 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -26502,6 +27162,28 @@
 			)
 		)
 		(property "Alt_link" ""
+			(at 157.48 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" ""
+			(at 157.48 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 157.48 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -26708,7 +27390,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07200KP/17020059"
+			(at 353.06 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "13-RC0402FR-07200KPCT-ND"
+			(at 353.06 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07200KP"
 			(at 353.06 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -26844,7 +27548,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-074K7P/4935287"
+			(at 359.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1272CT-ND "
+			(at 359.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-074K7P"
 			(at 359.41 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -26980,7 +27706,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-0710KP/4935264"
+			(at 229.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1249CT-ND"
+			(at 229.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-0710KP"
 			(at 229.87 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -27194,7 +27942,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07560RL/726638"
+			(at 68.58 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-560LRCT-ND "
+			(at 68.58 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07560RL"
 			(at 68.58 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -27321,6 +28091,28 @@
 			)
 		)
 		(property "Alt_link" ""
+			(at 156.21 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" ""
+			(at 156.21 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 156.21 205.74 90)
 			(hide yes)
 			(show_name no)
@@ -27609,7 +28401,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-0710KP/4935264"
+			(at 317.5 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1249CT-ND"
+			(at 317.5 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-0710KP"
 			(at 317.5 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -27823,6 +28637,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 156.21 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 156.21 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00243056-d366-42ce-b017-d0e1f01a0043")
 		)
@@ -27988,7 +28824,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/texas-instruments/TPS610333DRLR/22106777"
+			(at 336.55 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "296-TPS610333DRLRCT-ND"
+			(at 336.55 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "595-TPS610333DRLR"
 			(at 336.55 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -28041,7 +28899,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "83f55bde-e192-4268-8d5a-33968cb5dea4")
 		(property "Reference" "J11"
 			(at 57.15 123.698 0)
@@ -28132,6 +28990,28 @@
 			)
 		)
 		(property "Alt_link" ""
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" ""
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 58.42 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -28268,6 +29148,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 156.21 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 156.21 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50dc93a2-8370-48ed-bb8d-9506b43298b3")
 		)
@@ -28390,7 +29292,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH52-40S-0-5SH-99/3461668"
+			(at 233.68 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "HFZ040CT-ND"
+			(at 233.68 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "798-FH5240S0.5SH"
 			(at 233.68 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -28820,7 +29744,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM219R61C226ME15K/11618740"
+			(at 217.17 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-GRM219R61C226ME15KCT-ND"
+			(at 217.17 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM219R61C226ME1K"
 			(at 217.17 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -29155,7 +30101,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/taiyo-yuden/MLAST168SB7105KTNA01/16665343"
+			(at 356.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "587-MLAST168SB7105KTNA01CT-ND "
+			(at 356.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "963-MLAST168SB7105KT"
 			(at 356.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -29292,7 +30260,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/aratas-formerly-omron-components/XF3M-1-0815-1B/4975954"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "OR1222CT-ND"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "653-XF3M108151B"
 			(at 120.65 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -29449,7 +30439,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07100KP/12698883"
+			(at 229.87 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "13-RC0402FR-07100KPCT-ND"
+			(at 229.87 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07100KP"
 			(at 229.87 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -29629,7 +30641,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527"
+			(at 311.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1869-1-ND"
+			(at 311.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM188R61E106MA3J"
 			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -29812,6 +30846,28 @@
 			)
 		)
 		(property "Alt_link" ""
+			(at 224.79 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" ""
+			(at 224.79 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 224.79 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -30027,7 +31083,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-073K9L/726584"
+			(at 99.06 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-3.90KLRCT-ND "
+			(at 99.06 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-073K9L"
 			(at 99.06 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -30185,7 +31263,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
+			(at 308.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-10700-1-ND"
+			(at 308.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM155R71H104KE4D"
 			(at 308.61 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -30343,7 +31443,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
+			(at 345.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-10700-1-ND"
+			(at 345.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM155R71H104KE4D"
 			(at 345.44 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -30635,7 +31757,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-0710KP/4935264"
+			(at 323.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1249CT-ND"
+			(at 323.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-0710KP"
 			(at 323.85 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -31005,6 +32149,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 156.21 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 156.21 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cffe1b23-2700-40d5-a4ad-d4d70b271892")
 		)
@@ -31127,7 +32293,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-0710KP/4935264"
+			(at 311.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1249CT-ND"
+			(at 311.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-0710KP"
 			(at 311.15 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -31307,7 +32495,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527"
+			(at 365.76 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1869-1-ND"
+			(at 365.76 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM188R61E106MA3J"
 			(at 365.76 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -31497,6 +32707,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 31.75 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 31.75 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "50ee2ec2-4b4d-44af-be57-c3c81e3b30bb")
 		)
@@ -31669,6 +32901,28 @@
 			)
 		)
 		(property "Alt_link" ""
+			(at 203.2 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" ""
+			(at 203.2 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 203.2 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -31907,7 +33161,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
+			(at 204.47 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-10700-1-ND"
+			(at 204.47 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM155R71H104KE4D"
 			(at 204.47 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -32043,7 +33319,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07100RP/4935263"
+			(at 215.9 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1248CT-ND"
+			(at 215.9 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07100RP"
 			(at 215.9 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -32257,7 +33555,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-074K7P/4935287"
+			(at 323.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1272CT-ND "
+			(at 323.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-074K7P"
 			(at 323.85 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -32492,7 +33812,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM219R61C226ME15K/11618740"
+			(at 31.75 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-GRM219R61C226ME15KCT-ND"
+			(at 31.75 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM219R61C226ME1K"
 			(at 31.75 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -32628,7 +33970,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07100RP/4935263"
+			(at 215.9 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1248CT-ND"
+			(at 215.9 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07100RP"
 			(at 215.9 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -32921,7 +34285,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH34SRJ-40S-0-5SH-50/5132532"
+			(at 254 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "H125755CT-ND"
+			(at 254 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "798-FH34SRJ40S05SH50"
 			(at 254 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -33274,7 +34660,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM219R61C226ME15K/11618740"
+			(at 224.79 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-GRM219R61C226ME15KCT-ND"
+			(at 224.79 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM219R61C226ME1K"
 			(at 224.79 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -33797,7 +35205,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH34SRJ-34S-0-5SH-50/5132530"
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "26-FH34SRJ-34S-0.5SH(50)CT-ND"
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "798-FH34SRJ34S05SH50"
 			(at 31.75 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -34109,7 +35539,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07100RP/4935263"
+			(at 215.9 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1248CT-ND"
+			(at 215.9 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07100RP"
 			(at 215.9 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -34423,7 +35875,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
+			(at 331.47 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-10700-1-ND"
+			(at 331.47 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM155R71H104KE4D"
 			(at 331.47 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -34792,7 +36266,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-07100RP/4935263"
+			(at 215.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1248CT-ND"
+			(at 215.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-07100RP"
 			(at 215.9 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -35141,6 +36637,28 @@
 				)
 			)
 		)
+		(property "DigiKey_PN" ""
+			(at 41.91 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 41.91 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8dfd76ab-84ba-40fa-a583-ac34f7e94da2")
 		)
@@ -35268,7 +36786,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/vishay-dale/IHHP0806ZHER1R0M01/16583532"
+			(at 336.55 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "541-IHHP0806ZHER1R0M01CT-ND "
+			(at 336.55 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "70-IHHP0806ZHR1R0M01"
 			(at 336.55 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -35404,7 +36944,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-074K7P/4935287"
+			(at 317.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1272CT-ND "
+			(at 317.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-074K7P"
 			(at 317.5 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -35618,7 +37180,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-0710KP/4935264"
+			(at 231.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1249CT-ND"
+			(at 231.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-0710KP"
 			(at 231.14 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -35854,7 +37438,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/kemet/C0402C221J2GACTU/18195347"
+			(at 113.03 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "399-C0402C221J2GACTUCT-ND"
+			(at 113.03 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "80-C0402C221J2GACTU"
 			(at 113.03 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -36112,7 +37718,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/texas-instruments/LM2775DSGT/5287374"
+			(at 340.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "296-42149-1-ND"
+			(at 340.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "595-LM2775DSGT"
 			(at 340.36 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -36659,7 +38287,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/yageo/RC0402FR-0710KP/4935264"
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "YAG1249CT-ND"
+			(at 106.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "603-RC0402FR-0710KP"
 			(at 106.68 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -36817,7 +38467,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
+			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-10700-1-ND"
+			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "81-GRM155R71H104KE4D"
 			(at 96.52 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -37209,7 +38881,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/kemet/C0402C221J2GACTU/18195347"
+			(at 238.76 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "399-C0402C221J2GACTUCT-ND"
+			(at 238.76 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "80-C0402C221J2GACTU"
 			(at 238.76 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -37423,7 +39117,29 @@
 				)
 			)
 		)
-		(property "Alt_link" ""
+		(property "Alt_link" "https://www.digikey.pl/en/products/detail/aratas-formerly-omron-components/XF3M-1-3015-1B/4331813"
+			(at 120.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "OR1179CT-ND"
+			(at 120.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_PN" "653-XF3M1-3015-1B"
 			(at 120.65 71.12 0)
 			(hide yes)
 			(show_name no)
