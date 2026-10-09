@@ -35,17 +35,17 @@ Dual keyed FFC connectors:
      - HIGHS_FC1AF121-1151H (T480, L14G1)
      - JAE-CON12-1-GP-U (T580)
      - JAE_FL10F012HA1R3000 (E490)
-     - Omron XF3M(1)-1415-1B (**14pin, straight key. Skip 1 pin from each end, needs aligment guide!**)
+     - Omron XF3M(1)-1415-1B (**14pin, straight key. Skip 1 pin from each end, needs aligment guide! (cable width: 14mm, 14pin socket opening width: 15mm**)
        - [Mouser](https://www.mouser.pl/en/ProductDetail/Omron-Electronics/XF3M1-1415-1B?qs=0q6jlcGHEi2cMtnOEJgNDA%3D%3D)
 
 
 ## Compatible models (TBD)
 
-- T470, T480, T25 (w/o power button), A475, A485 **(12pin left, 36pin right, kb right side)**
+- T470, T480, T25 (w/o power button), A475, A485 **(12pin left, 36pin right, kb right side) Mounting hole coliding with adapter board, fix!!!**
 - ~~A285, L13g1, L13g2?, X280, X290, X390, X395, X13g1? **(36pin left, 12pin right, kb left side)**~~
-- T570, T580, P51s, P52s (40pin left, 12pin right, kb **right** side)
-- L14g1, L14g2 (40pin left, 12pin right, kb left side)
-- L15g1, L15g2 (40pin left, 12pin right, kb left side)
+- T570, T580, P51s, P52s (40pin left, 12pin right, kb **right** side) **(possible collision?)**
+- L14g1, L14g2 (40pin left, 12pin right, kb left side) **Mounting hole coliding with adapter board, fix!!!**
+- L15g1, L15g2 (40pin left, 12pin right, kb left side) **(possible collision?)**
 - E480, E485, E490, E495, L380, L390, L480, L490, T480s, T490, T14g1, T14g2, P43, P43s, P14sG1, P14sG2 (40pin left, 12pin right, kb left side)
 - E580, E585, E590, E595, L580, L590, T590, P52, P53, P53s, P72, P73 (40pin left, 12pin right, kb left side)
 - T15g1, T15g2, P15sG1, P15sG2 (40pin left, 12pin right, kb left side)
