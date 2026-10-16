@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.725 0)
 		(layer "F.SilkS")
-		(uuid "a84b43a3-98fb-42c6-a006-061335100c69")
+		(uuid "7c057d1a-3936-4a4f-bb39-2344bd39367f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "L_0806_2016Metric"
 		(at 0 1.825 0)
 		(layer "F.Fab")
-		(uuid "9e7c5997-585d-41e8-8bef-11feb332c735")
+		(uuid "ec53fba4-d3a9-425c-a345-2488dd7181b5")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bc1c6437-86b1-4c24-8ecd-4f4f9739e8c6")
+		(uuid "4fe108c8-c02c-4be2-8f5d-953ce6c77901")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a14dfa83-50eb-48b6-b97f-041d271fc478")
+		(uuid "9d67a971-7456-4b27-88ca-d7c029f580c9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e487aa96-8937-460f-b04b-436b72dc3c4f")
+		(uuid "3c16e583-6798-49b7-b36f-ca375c92fe50")
 		(effects
 			(font
 				(size 1 1)
@@ -61,7 +61,7 @@
 			)
 		)
 	)
-	(attr smd dnp)
+	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.3 -1.025)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bb116905-a979-4870-b61b-74b04db0319c")
+		(uuid "07addeb8-d74c-4895-8d61-606808f9edd4")
 	)
 	(fp_line
 		(start -0.3 1)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cb293540-914d-40de-8f18-5f9af52b1595")
+		(uuid "2e77124e-cd16-4362-8f96-591401d6e07a")
 	)
 	(fp_rect
 		(start -1.6 -1.15)
@@ -92,7 +92,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "63074af6-7d33-4a22-993e-cae59549de56")
+		(uuid "05ac96cd-5657-4eca-8cea-5b087e9d506c")
 	)
 	(fp_rect
 		(start -1 -0.8)
@@ -103,12 +103,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6b8397bf-dcef-4ef8-9dd7-f0a037d3228f")
+		(uuid "51fd027d-d7f1-4443-94ec-daf843c791e1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "8f3560c9-f8cf-44ba-8cb6-2e6e7e05d79a")
+		(uuid "b383d677-0cdc-4ed0-bd56-62eb55b867ff")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -121,14 +121,14 @@
 		(size 0.95 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "d568d69d-4500-4d70-8027-7786033d6c24")
+		(uuid "e273dc31-15bd-4ce4-afca-f611a37b17f4")
 	)
 	(pad "2" smd roundrect
 		(at 0.8 0)
 		(size 0.95 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "2be6a6d9-3564-40e5-8f1c-c31cd5528661")
+		(uuid "da173694-5df3-4966-8d0e-ad22ed2aa74a")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../libraries/3dmodels/L_0806_2016Metric.step"
