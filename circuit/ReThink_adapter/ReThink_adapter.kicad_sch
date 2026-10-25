@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ReThink Adapter")
-		(date "2026-10-16")
-		(rev "V0.3")
+		(date "2026-10-25")
+		(rev "V1.0")
 		(company "Ziemniaczenka")
 		(comment 1 "To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/")
 		(comment 2 "ReThink keyboard by Ziemniaczenka is licensed under CC BY-SA 4.0.")
@@ -11017,7 +11017,7 @@
 	)
 	(text "Backlight Boost Converter"
 		(exclude_from_sim no)
-		(at 323.85 205.486 0)
+		(at 324.358 205.486 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -11105,7 +11105,7 @@
 	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
-		(at 148.336 180.086 0)
+		(at 148.844 180.086 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -18303,6 +18303,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C10")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -18617,6 +18625,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R12")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -19023,6 +19039,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "J2")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -19898,6 +19922,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C18")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -21127,6 +21159,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R13")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -21285,6 +21325,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R18")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -22384,6 +22432,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "J8")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -22876,6 +22932,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C17")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -23851,6 +23915,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C22")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -24445,6 +24517,18 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C13")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -25132,6 +25216,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "J3")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -25964,6 +26056,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R10")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -26277,6 +26377,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R15")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -26479,6 +26587,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C9")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -27824,6 +27940,10 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C14")
 					(unit 1)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -28753,6 +28873,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R11")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -29653,6 +29781,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "U4")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -30220,6 +30356,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "J7")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -30555,6 +30699,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C19")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -31170,6 +31322,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "J5")
 					(unit 1)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -31328,6 +31488,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R24")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -31972,6 +32140,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R16")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -33384,6 +33560,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C11")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -34050,6 +34234,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C23")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -34208,6 +34400,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R20")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -34701,6 +34901,18 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C12")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -34859,6 +35071,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R19")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -35291,6 +35511,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "J6")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -35549,6 +35777,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C20")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -36428,6 +36664,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R21")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -37155,6 +37399,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R17")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -37675,6 +37927,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "L1")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -38069,6 +38329,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R22")
 					(unit 1)
+					(variant
+						(name "FFC1")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -39255,6 +39523,10 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "R14")
 					(unit 1)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -39435,6 +39707,10 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "C15")
 					(unit 1)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -40172,6 +40448,14 @@
 				(path "/6cef7f30-4344-4878-be02-7aa54a02ef81"
 					(reference "J4")
 					(unit 1)
+					(variant
+						(name "FFC2")
+						(dnp yes)
+					)
+					(variant
+						(name "Mezz_no_BL")
+						(dnp yes)
+					)
 				)
 			)
 		)

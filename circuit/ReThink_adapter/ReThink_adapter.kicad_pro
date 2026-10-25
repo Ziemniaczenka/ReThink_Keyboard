@@ -300,7 +300,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V0.3"
+      "sch_revision": "V1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -643,7 +643,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../reference/graphics/",
+      "plot": "Gerber/",
       "specctra_dsn": "",
       "step": "ReThink_adapter.step",
       "vrml": ""
@@ -656,7 +656,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_${VARIANT}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -814,8 +814,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -859,7 +859,18 @@
       }
     ],
     "used_designators": "#FLG1-8,R1-25,J1-11,U1-4,L1,#PWR1-90,JP1-10,C1-24,TP1,H1-8",
-    "variants": []
+    "variants": [
+      {
+        "name": "FFC1"
+      },
+      {
+        "name": "FFC2"
+      },
+      {
+        "description": "Only mezzanine, no backlight",
+        "name": "Mezz_no_BL"
+      }
+    ]
   },
   "sheets": [
     [
