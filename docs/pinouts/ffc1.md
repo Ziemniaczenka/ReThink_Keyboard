@@ -26,7 +26,7 @@ Dual FFC connectors (30-pin P1.0mm for matrix, 8-pin P1.0mm for Pointing Stick)
 
 ## Compatible models (TBD)
 
-- L410 L412 L420 L421 L510 L512 L520 SL300 SL410 SL510
+- L410, L412, L420, L421, L510, L512, L520, SL300, SL410, SL510
 - X120???
 
 ## Pinout (30-pin)
