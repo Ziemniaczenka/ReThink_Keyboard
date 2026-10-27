@@ -11115,7 +11115,7 @@
 		)
 		(uuid "93db63ea-1191-493c-a997-30e32d8a3746")
 	)
-	(text "Warning! \nShort JP2 only \nfor T430 \nbacklight"
+	(text "Warning! \nShort JP3 only \nfor T430 \nbacklight"
 		(exclude_from_sim no)
 		(at 40.64 210.312 0)
 		(effects
@@ -11145,17 +11145,6 @@
 			)
 		)
 		(uuid "eb9cc409-b4fc-4016-b06d-3ee75db17c80")
-	)
-	(text "Port 0:\nPush-Pull\nPort 1:\nOpen Collector"
-		(exclude_from_sim no)
-		(at 314.706 177.292 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee5d5970-cd79-4aec-be64-9276671a8fe5")
 	)
 	(text "Cable guide mounting"
 		(exclude_from_sim no)

@@ -1,6 +1,6 @@
-# ReThink Keyboard
+ ![ReThink Keyboard logo](docs/assets/ReThink_keyboard_logo.svg)
 
-Adapting older ThinkPad laptop keyboard modules into standalone keyboards using Framework Control Board.
+### Adapting older ThinkPad laptop keyboard modules into standalone keyboards using Framework Control Board.
 
 ## Hardware overview
 - **Framework Control Board** - nRF54LM20A, Bluetooth/dongle/USB-C connection, nPM1300 power management IC.
@@ -17,6 +17,7 @@ Adapting older ThinkPad laptop keyboard modules into standalone keyboards using 
 - [Mezzanine Connector (e.g. T60/T420)](docs/pinouts/mezzanine.md)
 - [FFC1 (e.g. L420)](docs/pinouts/ffc1.md)
 - [FFC2 (e.g. T480/T580/L14)](docs/pinouts/ffc2.md)
+- [PCAL6416A IO expander](docs/pinouts/io_expander.md)
 
 ## Mechanical CAD
   
@@ -24,10 +25,19 @@ Adapting older ThinkPad laptop keyboard modules into standalone keyboards using 
 
 ## ReThink Adapter
 
-   Adapter board connects to Control Board using FFC cables, has a bunch of connectors for different generations of ThinkPad keyboard, boost converters (for pointing stick, backlight) and I2C IO expander (required to keep all keyboard buttons and diodes functional).
+   Adapter board connects to Control Board using FFC cables, has connectors for different generations of ThinkPad keyboards, boost converters (for pointing stick, backlight) and I2C IO expander (required to keep all keyboard buttons and diodes functional).
 
-   - [Schematic (WiP)](circuit/ReThink_adapter.pdf)
-   - [BOM (WiP)](circuit/ReThink_adapter/ReThink_adapter.csv)
+   Variants:
+   | Variant       | Connectors       | Backlight |
+   | ------------- | ---------------- | --------- |
+   | Full(Default) | Mezz, FFC1, FFC2 | - [x]     |
+   | Mezz_no_BL    | Mezz             | - [ ]     |
+   | FFC1          | FFC1             | - [ ]     |
+   | FFC2          | FFC2             | - [x]     |
+
+   - [Schematic](circuit/ReThink_adapter_Schematic.pdf)
+   - [PCB](circuit/ReThink_adapter_PCB.pdf)
+   - [BOM](circuit/ReThink_adapter/bom/ReThink_adapter_default.csv)
 
 ## Battery
 
