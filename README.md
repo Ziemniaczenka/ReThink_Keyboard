@@ -29,6 +29,11 @@
 
 - TBD
 
+First case prototype (T420), 3D printed:
+
+<img src="docs/assets/photos/ReThink-5.jpg" width="49%" alt="T420 keyboard in the first ReThink case prototype"> <img src="docs/assets/photos/ReThink-8.jpg" width="49%" alt="Inside the case: Framework Control Board, FFC cable and battery">
+
+
 ##  <img src="docs/assets/ReThink_adapter_logo.svg" height="100">
 
 Adapter board connects to Control Board using FFC cables, has connectors for different generations of ThinkPad keyboards, boost converters (for pointing stick, backlight) and I2C IO expander (required to keep all keyboard buttons and diodes functional).
