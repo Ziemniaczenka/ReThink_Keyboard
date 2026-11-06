@@ -13,7 +13,7 @@
 
 ## Status
 
-- [x] Adapter Board:    V1.0 designed, PCBs ordered
+- [x] Adapter Board:    V1.0 designed, parts arrived, first board assembled.
 - [ ] Firmware:         repo configured, test configurations WIP.
 - [ ] Case:             WIP for T420/T430, not yet started for others.
 
@@ -57,6 +57,7 @@ Defaults, jumper positions and the matching firmware options are in [IO expander
 - [Schematic](circuit/ReThink_adapter_Schematic.pdf)
 - [PCB](circuit/ReThink_adapter_PCB.pdf)
 - [BOM](circuit/ReThink_adapter/bom/ReThink_adapter_default.csv)
+- [Adapter bring-up](docs/adapter_bringup.md).
 
 ## Battery
 

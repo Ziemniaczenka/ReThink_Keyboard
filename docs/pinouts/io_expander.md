@@ -42,7 +42,8 @@ Connector columns give the keyboard cable pin numbers used in the connector page
 |  17   | P1_7  | KBD_BL_DTCT |     In     | Low = backlit kb |       -       |   -    |    11 (12)    |         Backlight detection, read with the internal pull-up         |
 
 Notes:
-- "Open-drain": the pin either sinks or is left as an input. The firmware switches between output-low and input, because the Zephyr PCAL64xxA driver does not accept `GPIO_OPEN_DRAIN`.
+- "Open-drain": the pin either sinks or is left as an input. The firmware switches between output-low and input, because the Zephyr PCAL64xxA driver does not accept `GPIO_OPEN_DRAIN`. Unlit LED pins rest on U1's internal pull-up.
+- Pins nothing drives must not float: a floating input draws up to 80 µA (datasheet ΔIDD) from LED_3V3, which stays on in System OFF. The firmware puts every idle pin except the enables and TP1/TP2_RST on U1's internal pull-up (`idle-gpios`), or on the pull-down where the keyboard grounds the pin (T60 Mezzanine 36).
 - TP2_RST with R23 (pull-down) instead of R22: reset is asserted by driving P1_1 high (push-pull), and only while TP2_PWR is on, so the pin does not back-power the pointing stick.
 - The LED pins are shared between connectors: LEDPWR drives Mezzanine 23 and FFC2 26 at the same time, and so on.
 - After power-up or reset all pins are inputs, so PUMP_EN (R25) and TP1/TP2_RST (pull-ups) start in their safe states. BOOST_EN has no pull resistor on the adapter.
