@@ -1,6 +1,6 @@
 # Adapter bring-up
 
-Checks for a freshly assembled ReThink Adapter v1.0 (Full variant), before it carries a keyboard. Work through the tables in order. Each row says what to do and what to expect: if it matches, go to the next row; if not, the last column says where to look. Fix it and repeat the row.
+Checks for a freshly assembled ReThink Adapter v1.0 (Full variant), before it carries a keyboard. Work through the tables in order. Each row says what to do and what to expect: if it matches, go to the next row; if not, the last column says where to look. Fix it and repeat the row. Results from the first adapter and known limits are in [Adapter v1.0 notes](adapter_notes.md).
 
 Stages 1 and 2 need a multimeter, a bench supply and a scope, and no Control Board: a fault found there costs an adapter, not the board. Stages 3 and 4 run on the Control Board with the `adapter` shell commands of [rethink-zmk-config](https://github.com/Ziemniaczenka/rethink-zmk-config) (`rethink-usb-shell` snippet).
 

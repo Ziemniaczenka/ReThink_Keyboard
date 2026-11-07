@@ -58,6 +58,7 @@ Defaults, jumper positions and the matching firmware options are in [IO expander
 - [PCB](circuit/ReThink_adapter_PCB.pdf)
 - [BOM](circuit/ReThink_adapter/bom/ReThink_adapter_default.csv)
 - [Adapter bring-up](docs/adapter_bringup.md).
+- [Adapter v1.0 notes](docs/adapter_notes.md): measurements, troubleshooting, next revision.
 
 ## Battery
 
