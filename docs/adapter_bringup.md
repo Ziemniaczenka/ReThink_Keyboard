@@ -1,8 +1,8 @@
 # Adapter bring-up
 
-Checks for a freshly assembled ReThink Adapter v1.0 (Full variant), before it carries a keyboard. Work through the tables in order. Each row says what to do and what to expect: if it matches, go to the next row; if not, the last column says where to look. Fix it and repeat the row. Results from the first adapter and known limits are in [Adapter v1.0 notes](adapter_notes.md).
+Checks for a freshly assembled ReThink Adapter v1.0 (Full variant), up to its first keyboard. Work through the tables in order. Each row says what to do and what to expect: if it matches, go to the next row; if not, the last column says where to look. Fix it and repeat the row. Results from the first adapter and known limits are in [Adapter v1.0 notes](adapter_notes.md).
 
-Stages 1 and 2 need a multimeter, a bench supply and a scope, and no Control Board: a fault found there costs an adapter, not the board. Stages 3 and 4 run on the Control Board with the `adapter` shell commands of [rethink-zmk-config](https://github.com/Ziemniaczenka/rethink-zmk-config) (`rethink-usb-shell` snippet).
+Stages 1 and 2 need a multimeter, a bench supply and a scope, and no Control Board: a fault found there costs an adapter, not the board. Stages 3-5 run on the Control Board with the `adapter` shell commands of [rethink-zmk-config](https://github.com/Ziemniaczenka/rethink-zmk-config) (`rethink-usb-shell` snippet).
 
 ## Conventions
 
@@ -84,7 +84,7 @@ Without a battery, ZMK logs `Failed to fetch battery values: -11` every 10 s. It
 
 ## 4. Firmware tests, no keyboard
 
-Rows 4.1-4.5 look for shorts: they read pins, pull single lines low against pull-ups and turn on TP_3V3, already checked in stage 2. Fix what they find before 4.6, where the commands start driving pins high and switching supplies. The `adapter` commands bypass the backlight interlock: never use them with a keyboard connected.
+Rows 4.1-4.5 look for shorts: they read pins, pull single lines low against pull-ups and turn on TP_3V3, already checked in stage 2. Fix what they find before 4.6, where the commands start driving pins high and switching supplies. These commands bypass the backlight interlock: with a keyboard connected, use only `adapter status`, `in`, `int` and `shorts`, which read pins or pull single lines low.
 
 | # | Do | Pass | If not |
 | --- | --- | --- | --- |
@@ -108,3 +108,18 @@ Rows 4.1-4.5 look for shorts: they read pins, pull single lines low against pull
 | 4.18 | Optional, with a battery: wired mode, unplug USB, measure the battery current | Bare board plus a few µA | A pin between the rails: ground candidates one at a time and watch the current |
 
 `adapter shorts` drives the 40 lines to the keyboard connectors low one at a time while the others have pull-ups: SENSE0-7, DRV0-14, FW_CLK/FW_DAT, INT, and the expander's DRV15-17, OUT1, TP1/TP2_RST, LED lines and KBD_BL_DTCT. It finds bridges anywhere along them, connectors included, but not open pins: rows 4.11-4.15 cover those.
+
+## 5. First keyboard
+
+For each keyboard, with `rethink_scanner-rethink-usb-shell` flashed beforehand: its keys send nothing to the host and it powers nothing on the keyboard. Connect and disconnect a keyboard only with all power removed: USB unplugged, battery disconnected. The backlight is not part of this stage: the firmware keeps it locked until KBD_BL_DTCT reads low (read again before every power-on) and caps its PWM at 10 %.
+
+| # | Do | Pass | If not |
+| --- | --- | --- | --- |
+| 5.1 | Compare the jumpers with the keyboard's row in [Use per keyboard](pinouts/io_expander.md#use-per-keyboard) and `config/rethink.conf`: pointing stick supply (JP6 or JP7), JP3, JP1, JP2 | All match. JP3 closed only for a backlit T430-class keyboard | Fix them first: a wrong supply jumper puts 5 V on a 3.3 V pointing stick, and JP3 puts BL_5V on a pin older Mezzanine keyboards ground |
+| 5.2 | Insert the cables, unpowered. A separate pointing stick or backlight cable (FFC1 8-pin, FFC2 12-pin) can wait: the matrix cable alone is enough here | Contacts facing the connector's contacts, fully in on both sides, square to the connector, latch closed | Reseat: a cable shifted by one pin moves every line onto its neighbour |
+| 5.3 | LED_3V3, TP_3V3, TP_5V, BL_5V, each to GND, as in 1.1 | Not down to a few ohms. The Control Board and a pointing stick load the rails, so readings are lower than in 1.1 | A supply pin on a GND pin: the cable is shifted. Disconnect and back to 5.2 |
+| 5.4 | Power over USB through a USB meter, no battery | Within about 1 mA of 3.2 | Unplug at once, back to 5.2 |
+| 5.5 | `adapter status` | KBD_BL_DTCT (LEDCPSLOCK on the T430) low only with a backlit keyboard and its cable in | Low on a keyboard without backlight: shifted cable or a short to GND. The interlock would let the backlight on: fix it first |
+| 5.6 | `adapter shorts`, no key pressed | No pairs. Low at rest only where expected: warnings naming a resistor (FW and TP lines while their supply is off), KBD_BL_DTCT with a backlit keyboard, LEDMICMUTE on the T60 (Mezzanine 36 is GND) | Low at rest: a GND pin on that line (shifted cable) or a held key. A pair: a held key, or two lines bridged at the connector |
+| 5.7 | Close the terminal, run `scripts/matrix_scan.py` ([rethink-zmk-config](https://github.com/Ziemniaczenka/rethink-zmk-config#rethink_scanner)) and press every key | Each key reports one row and column, no two keys the same | No report: an open contact on its SENSE or DRV line (cable, connector). A whole row missing: with the keyboard out, touch that SENSE pin's connector leg to GND (J11 pin 2); all 18 columns of the row should report, else the joint or trace is open. A position taken twice: two lines bridged |
+| 5.8 | Optional, with a battery: wired mode, unplug USB, measure the battery current | As in 4.18 | A keyboard pin holds an idle U1 pin against its pull: that pin needs another pull in the shield's `idle-gpios` |

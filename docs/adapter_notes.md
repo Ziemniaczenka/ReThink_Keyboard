@@ -4,7 +4,7 @@ Measurements on the first assembled adapter, what to check when something misbeh
 
 ## Measured
 
-First adapter (Full variant) on the Control Board, no keyboard.
+First adapter (Full variant) on the Control Board, no keyboard unless stated.
 
 | What | Result | Verdict |
 | --- | --- | --- |
@@ -15,6 +15,7 @@ First adapter (Full variant) on the Control Board, no keyboard.
 | Boost U4 on BUCK1, 100 Ω on BL_5V (50 mA) | VIN and BL_5V steady at nominal. Ripple: VIN about 240 mV, BL_5V about 50 mV | Good |
 | Boost U4 on BUCK1, 47 Ω on BL_5V (about 106 mA) | VIN drops to 2.1 V in frequent spikes, BL_5V is a 2.9-3.6 V sawtooth, coil whine | Fails. U4 handles more on the bench, so the VLED_BL path can't supply the ~0.19 A U4 needs: BUCK1's 200 mA limit, or the drop across Q3 and the cable |
 | System OFF, wired power-off on battery | 0.000 mA on the multimeter's mA range, as the bare board | Good, with every idle U1 pin on a pull (`idle-gpios`). Floating, U1 drew about 0.5 mA, TP2_RST alone about 100 µA |
+| Two Norwegian L420 keyboards on FFC1, `rethink_scanner` | First: no key on SENSE6/SENSE7 (J4 pins 28/29) on either keyboard. After reworking all J4 pins: all 85 keys on one keyboard, all but Enter (SENSE6 × DRV10) on the other | J4 joints were open. The pinout matches the L420 schematic (CN5) |
 
 Still to measure:
 - The largest BL_5V load on BUCK1, between 50 mA (works) and 106 mA (fails): 68 Ω (74 mA), with VBL on the Control Board and VIN on the adapter measured together to split BUCK1's sag from the drop across Q3 and the cable.
@@ -29,6 +30,7 @@ Still to measure:
 | Backlight dim or whining at high brightness | VLED_BL overloaded: lower `CONFIG_RETHINK_BACKLIGHT_MAX_DUTY`, or VSYS as above |
 | System OFF current above a few µA | A U1 pin between the rails: a keyboard pin not covered by its shield's `idle-gpios`, or firmware without them. Ground candidates one at a time and watch the current |
 | HOTKEY, PWRSWITCH, DRV15-17 dead or acting together | U1 pins 3-7: bridges or opens at the HVQFN24 (bring-up 4.4, 4.5, 4.12, 4.15) |
+| A whole SENSE row missing on every keyboard of one connector | An open joint on that connector's SENSE pin: see bring-up 5.7 |
 | Pointing stick doesn't start | TP_3V3 is off from boot; PUMP_EN only with TP_3V3 on; TP1/TP2_RST rest on pull-downs until the TrackPoint support drives them |
 
 ## For a next revision
