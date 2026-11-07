@@ -34,6 +34,7 @@ Still to measure:
 ## For a next revision
 
 - **I2C pull-ups:** 4.7 kΩ for R1/R2 gives margin at 400 kHz.
+- **PUMP_EN across resets:** U1 stays powered from LED_3V3 and keeps PUMP_EN high when the Control Board resets, while TP_3V3 may drop with P3.12. Until the firmware rewrites U1 (bootloader time included), the LM2775's EN sits above its supply (rating: VIN + 0.3 V). A series resistor of about 10 kΩ between U1 P0_0 and U2 EN limits the current; with R25 (100 kΩ) EN still reaches about 3 V.
 - **Boost input:** U4 precharges BL_5V's 64 µF at up to ~1 A, more than BUCK1 delivers, and VIN ripples about 240 mV at a 50 mA load. More input capacitance on VIN (C9 is 10 µF) helps both. Other options: less capacitance on BL_5V, or a boost with a gentler start.
 - **VLED_BL source:** decide between BUCK1 and VSYS once real backlight currents are known. On BUCK1, 50 mA at 5 V runs cleanly and about 106 mA fails.
 - **U1 package:** two sides of the HVQFN24 bridged at hand assembly and were hard to inspect. The TSSOP24 version (PCAL6416APW, 0.65 mm pitch) is easier to solder and check, or reduce the stencil apertures for the QFN.
