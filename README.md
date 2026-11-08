@@ -11,6 +11,9 @@
 
 > Note: This is preliminary information. Everything is subject to change and more information will follow.
 
+> [!IMPORTANT]
+> While most of this repository is human-written, some of the text was written by AI, mostly in [Adapter bring-up](docs/adapter_bringup.md) and [Adapter v1.0 notes](docs/adapter_notes.md). Do with that information as you will.
+
 ## Status
 
 - [x] Adapter Board:    V1.0 designed, parts arrived, first board assembled.
