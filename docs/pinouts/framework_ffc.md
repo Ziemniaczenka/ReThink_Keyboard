@@ -21,7 +21,7 @@
      - Hirose FH34SRJ-6S-0.5SH(50)
        - [Mouser](https://www.mouser.pl/en/ProductDetail/Hirose-Connector/FH34SRJ-6S-0.5SH50?qs=vnk2wBG9e15jF3vv7p0sbw%3D%3D)
 
-## Pinout (34-pin) (TODO: VERIFY ORIENTATION!!!)
+## Pinout (34-pin)
 
 
 | Pin (CB) |  nRF  | Control Board |                   Type                    | Adapter Board | Pin (AB) |
@@ -61,7 +61,7 @@
 |    33    | P3.06 |    TP_INT     |                                           |     IO26      |    2     |
 |    34    |   -   |    TP_GND     |           To GND through R8 0R            |      GND      |    1     |
 
-## Pinout (6-pin)  (TODO: VERIFY ORIENTATION!!!)
+## Pinout (6-pin)
 
 | Pin (CB) | Control Board |     Type      | Adapter Board | Pin (AB) |
 | :------: | :-----------: | :-----------: | :-----------: | :------: |

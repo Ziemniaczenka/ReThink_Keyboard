@@ -17,6 +17,8 @@ First adapter (Full variant) on the Control Board, no keyboard unless stated.
 | System OFF, wired power-off on battery | 0.000 mA on the multimeter's mA range, as the bare board | Good, with every idle U1 pin on a pull (`idle-gpios`). Floating, U1 drew about 0.5 mA, TP2_RST alone about 100 µA |
 | Two Norwegian L420 keyboards on FFC1, `rethink_scanner` | First: no key on SENSE6/SENSE7 (J4 pins 28/29) on either keyboard. After reworking all J4 pins: all 85 keys on one keyboard, all but Enter (SENSE6 × DRV10) on the other | J4 joints were open. The pinout matches the L420 schematic (CN5) |
 
+Current with each keyboard, by FRU: [Keyboard power](keyboard_power.md).
+
 Still to measure:
 - The largest BL_5V load on BUCK1, between 50 mA (works) and 106 mA (fails): 68 Ω (74 mA), with VBL on the Control Board and VIN on the adapter measured together to split BUCK1's sag from the drop across Q3 and the cable.
 - Backlight current of real keyboards (T430, T480 class), at full brightness and at the PWM duty limit.

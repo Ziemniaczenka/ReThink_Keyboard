@@ -81,20 +81,20 @@ Defaults, jumper positions and the matching firmware options are in [IO expander
 
 Planned, nothing tested on real keyboards yet.
 
-| Keyboards                                                                                               | Connector | Backlight <br> (optional) | Pointing Stick supply <br> (**default**) | Board support | Firmware config | Case |
-| ------------------------------------------------------------------------------------------------------- | --------- | ------------------------- | ---------------------------------------- | ------------- | --------------- | ---- |
-| T60, T61, T400, R60, R61, R400, R500, W500, W700                                                        | Mezzanine | ❌                         | 5V                                       |               |                 |      |
-| T410, T420, T510, T520, W510, W520, X220                                                                | Mezzanine | ❌                         | 5V                                       | ✅             | WIP             | WIP  |
-| T430, T530, W530, X230                                                                                  | Mezzanine | ✅                         | 5V                                       |               |                 |      |
-| L410, L412, L420, L421, L510, L512,<br>L520, SL300, SL410, SL510                                        | FFC1      | ❌                         | 5V                                       | ✅             | WIP             |      |
-| T470, T480, A475, A485                                                                                  | FFC2      | ✅                         | 3V3                                      |               |                 |      |
-| T570, T580, P51s, P52s                                                                                  | FFC2      | ✅                         | 3V3                                      |               |                 |      |
-| L14g1, L14g2                                                                                            | FFC2      | ✅                         | 3V3                                      |               |                 |      |
-| L15g1, L15g2                                                                                            | FFC2      | ✅                         | 3V3                                      |               |                 |      |
-| E480, E485, E490, E495, L380, L390, L480, L490, T480s,<br>T490, T14g1, T14g2, P43, P43s, P14sG1, P14sG2 | FFC2      | ✅                         | 3V3                                      |               |                 |      |
-| E580, E585, E590, E595, L580, L590,<br>T590, P52, P53, P53s, P72, P73                                   | FFC2      | ✅                         | 3V3                                      |               |                 |      |
-| T15g1, T15g2, P15sG1, P15sG2                                                                            | FFC2      | ✅                         | 3V3                                      |               |                 |      |
-| P15g1, P15g2, P17g1, P17g2                                                                              | FFC2      | ✅                         | 3V3                                      |               |                 |      |
+| Keyboards                                                                                               | Connector | Backlight <br> (optional) | Pointing Stick supply <br> (**default**) | Board support (tested) | Firmware config | Case |
+| ------------------------------------------------------------------------------------------------------- | --------- | ------------------------- | ---------------------------------------- | ---------------------- | --------------- | ---- |
+| T60, T61, T400, R60, R61, R400, R500, W500, W700                                                        | Mezzanine | ❌                         | 5V                                       |                        |                 |      |
+| T410, T420, T510, T520, W510, W520, X220                                                                | Mezzanine | ❌                         | 5V                                       | ✅                      | WIP             | WIP  |
+| T430, T530, W530, X230                                                                                  | Mezzanine | ✅                         | 5V                                       |                        |                 |      |
+| L410, L412, L420, L421, L510, L512,<br>L520, SL300, SL410, SL510                                        | FFC1      | ❌                         | 5V                                       | ✅                      | WIP             |      |
+| T470, T480, A475, A485                                                                                  | FFC2      | ✅                         | 3V3                                      | ✅                      | WIP             |      |
+| T570, T580, P51s, P52s                                                                                  | FFC2      | ✅                         | 3V3                                      |                        |                 |      |
+| L14g1, L14g2                                                                                            | FFC2      | ✅                         | 3V3                                      |                        |                 |      |
+| L15g1, L15g2                                                                                            | FFC2      | ✅                         | 3V3                                      |                        |                 |      |
+| E480, E485, E490, E495, L380, L390, L480, L490, T480s,<br>T490, T14g1, T14g2, P43, P43s, P14sG1, P14sG2 | FFC2      | ✅                         | 3V3                                      |                        |                 |      |
+| E580, E585, E590, E595, L580, L590,<br>T590, P52, P53, P53s, P72, P73                                   | FFC2      | ✅                         | 3V3                                      | ✅                      | WIP             |      |  |
+| T15g1, T15g2, P15sG1, P15sG2                                                                            | FFC2      | ✅                         | 3V3                                      |                        |                 |      |
+| P15g1, P15g2, P17g1, P17g2                                                                              | FFC2      | ✅                         | 3V3                                      |                        |                 |      |
 
 
 Full lists in the connector pinouts.
