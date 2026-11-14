@@ -17,8 +17,8 @@
 ## Status
 
 - [x] Adapter Board:    V1.0 designed, parts arrived, first board assembled.
-- [ ] Firmware:         repo configured, test configurations WIP.
-- [ ] Case:             WIP for T420/T430, not yet started for others.
+- [ ] Firmware:         first keyboard configurations WIP.
+- [ ] Case:             WIP for T420, not yet started for others.
 
 ## Reference pinouts
 
@@ -34,12 +34,14 @@
 
 First case prototype (T420), 3D printed:
 
-<img src="docs/assets/photos/ReThink-5.jpg" width="49%" alt="T420 keyboard in the first ReThink case prototype"> <img src="docs/assets/photos/ReThink-8.jpg" width="49%" alt="Inside the case: Framework Control Board, FFC cable and battery">
+<img src="docs/assets/photos/ReThink-5.jpg" width="50%" alt="T420 keyboard in the first ReThink case prototype"> <img src="docs/assets/photos/ReThink-20.jpg" width="45%" align="right" alt="T420 keyboard lifted out of the case: battery, Framework Control Board, FFC cables and adapter board inside">
 
 
-##  <img src="docs/assets/ReThink_adapter_logo.svg" height="100">
+##  <img src="docs/assets/ReThink_adapter_logo.svg" width="50%">
 
 Adapter board connects to Control Board using FFC cables, has connectors for different generations of ThinkPad keyboards, boost converters (for pointing stick, backlight) and I2C IO expander (required to keep all keyboard buttons and diodes functional).
+
+<img src="docs/assets/photos/ReThink-19.jpg" width="50%" alt="Assembled ReThink adapter board v1.0">
 
 Variants:
 | Variant        | Connectors       | Backlight |
@@ -78,8 +80,6 @@ Defaults, jumper positions and the matching firmware options are in [IO expander
 - Adapter jumpers and Control Board options (e.g. backlight power source) are set in one file: `config/rethink.conf`.
 
 ## Compatibility Table
-
-Planned, nothing tested on real keyboards yet.
 
 | Keyboards                                                                                               | Connector | Backlight <br> (optional) | Pointing Stick supply <br> (**default**) | Board support (tested) | Firmware config | Case |
 | ------------------------------------------------------------------------------------------------------- | --------- | ------------------------- | ---------------------------------------- | ---------------------- | --------------- | ---- |
