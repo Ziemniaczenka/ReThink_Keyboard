@@ -28,3 +28,18 @@ The firmware column is the rethink-zmk-config commit. The T420 keyboards read th
 - Lock LED current depends on the keyboard's own LED resistor: Caps Lock adds 1.7 mA on the E580, 1.9 mA on the T420, 3.4 mA on the T480.
 - Unused, the firmware switches the stick off after 10 minutes (the stick-off figure) and, on battery, the whole board after 30 minutes (System OFF, about 7 µA).
 - Stick details (more in the firmware's README, Pointing stick): the T420 stick reports ID 01, firmware 0e. Press-to-select doesn't work on the T480's and E580's sticks; newer generations dropped it.
+
+## Backlight
+
+Current from the battery with the backlight on, at the firmware's two steps (Fn+Space): 51 % and 100 % of the duty cap (`CONFIG_RETHINK_BACKLIGHT_MAX_DUTY`, or `backlight max` in the shell). VLED_BL from the Control Board's BUCK1 (3.3 V), boosted to 5 V by the adapter's U4. Same setup as above, with the stick on, over Bluetooth, and 100 µF across the battery input (the prerelease bootloader's boot loop through the meter, see the firmware's docs/power.md).
+
+| Keyboard | FRU | PWM | Cap | Off | Low | High | Firmware | Date |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| E580 | 01YN773 | 4096 Hz | 10 % | 2.2 mA | 28 mA | 53 mA | 1e4f733 | 2026-11-17 |
+| E580 | 01YN773 | 25 kHz | 10 % | 2.3 mA | 27.5 mA | 50.5 mA | after 1e4f733 | 2026-11-17 |
+| E580 | 01YN773 | 25 kHz | 15 % | | 38.7 mA | 75.9 mA | after 1e4f733 | 2026-11-17 |
+| E580 | 01YN773 | 25 kHz | 20 % | | | 93-100 mA | after 1e4f733 | 2026-11-17 |
+
+- About 5 mA from the battery per 1 % of duty, so full duty would draw about 0.5 A, more than BUCK1 delivers (200 mA at 3.3 V). The firmware runs the E580 at a 20 % cap.
+- At 4096 Hz, AC-coupled on the scope: VLED_BL 610 mV p-p (dips about 40 µs long, one per PWM period), BL_5V 62 mV p-p, the battery input 100 mV p-p (through the meter). Coil whine, audible with the keyboard out of its case. At 25 kHz still faintly audible at the low step; at 50 kHz (and 100 kHz) silent, so the firmware uses 50 kHz.
+- On USB, charging at 450 mA, the charge current dropped with the backlight on: the nPM1300's USB input limit, 500 mA. The firmware now raises it to 1.5 A on USB-C sources that offer 1.5 A or 3 A: 440 mA into the cell with the backlight on (see the firmware's docs/power.md).

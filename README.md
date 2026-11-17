@@ -65,6 +65,15 @@ Defaults, jumper positions and the matching firmware options are in [IO expander
 - [Adapter bring-up](docs/adapter_bringup.md).
 - [Adapter v1.0 notes](docs/adapter_notes.md): measurements, troubleshooting, next revision.
 
+### Known Issues
+- Pointing stick not working on low battery/poor(high ISR) cell. <br>
+  The issue stems from high inrush current when switching on the pointing stick <br>
+  Possible solutions:
+  - use high quality high capacity cell (1000mAh INC503450 works fine)
+  - reduce capacitance of TP_3V3 line - remove C3 if charge pump unused (untested)
+  - add capacitor parallel to the battery (value not determined, 100uF should help)
+  - future revision: add soft-start load switch to adapter board
+
 ## Battery
 
 - Picoblade 3-pin with NTC thermistor.
